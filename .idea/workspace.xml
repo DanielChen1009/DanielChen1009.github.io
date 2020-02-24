@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="97ba4aae-0ade-4e7d-85e7-4b682436b8bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +23,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Asteroids" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="ServiceViewManager">
@@ -46,10 +47,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Changed title message" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1582484665115">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1582510754011">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1582484665115" />
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1582510754011" />
     <state x="422" y="115" key="FileChooserDialogImpl" timestamp="1582486696682">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
