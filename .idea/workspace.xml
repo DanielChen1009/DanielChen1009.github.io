@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="97ba4aae-0ade-4e7d-85e7-4b682436b8bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,13 +43,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added index.html file." />
     <MESSAGE value="Changed title message" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed title message" />
+    <MESSAGE value="Added link to asteroids game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added link to asteroids game" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1582510754011">
+    <state x="241" y="0" key="CommitChangelistDialog2" timestamp="1582511648440">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1582510754011" />
+    <state x="241" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1582511648440" />
     <state x="422" y="115" key="FileChooserDialogImpl" timestamp="1582486696682">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
@@ -59,9 +59,9 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="326" y="59" width="651" height="602" key="NewModule_or_Project.wizard/0.0.1280.720@0.0.1280.720" timestamp="1582485307688" />
-    <state x="234" y="93" key="Vcs.Push.Dialog.v2" timestamp="1582484671390">
+    <state x="234" y="93" key="Vcs.Push.Dialog.v2" timestamp="1582511652835">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="234" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1582484671390" />
+    <state x="234" y="93" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1582511652835" />
   </component>
 </project>

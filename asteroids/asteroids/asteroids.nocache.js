@@ -335,7 +335,7 @@ function asteroids(){
     }
     var strongName;
     try {
-      strongName = '9822E7BB8A2FD8172E108067A83B7072';
+      strongName = '493CD254D7E6A5E6957135B9DA9DFD14';
       var idx = strongName.indexOf(':');
       if (idx != -1) {
         softPermutationId = parseInt(strongName.substring(idx + 1), 10);

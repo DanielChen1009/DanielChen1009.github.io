@@ -44,7 +44,7 @@ $clinit_Impl,com.google.gwt.core.client.impl.Impl::$clinit()V,com.google.gwt.cor
 apply_0,com.google.gwt.core.client.impl.Impl::apply(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,com.google.gwt.core.client.impl.Impl,apply,com/google/gwt/core/client/impl/Impl.java,236,0
 enter,com.google.gwt.core.client.impl.Impl::enter()Z,com.google.gwt.core.client.impl.Impl,enter,com/google/gwt/core/client/impl/Impl.java,253,0
 entry_0,com.google.gwt.core.client.impl.Impl::entry(Lcom/google/gwt/core/client/JavaScriptObject;)Lcom/google/gwt/core/client/JavaScriptObject;,com.google.gwt.core.client.impl.Impl,entry,com/google/gwt/core/client/impl/Impl.java,74,0
-entry0,com.google.gwt.core.client.impl.Impl::entry0(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,com.google.gwt.core.client.impl.Impl,entry0,com/google/gwt/core/client/impl/Impl.java,275,0
+entry0_0,com.google.gwt.core.client.impl.Impl::entry0(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,com.google.gwt.core.client.impl.Impl,entry0,com/google/gwt/core/client/impl/Impl.java,275,0
 entryDepth,com.google.gwt.core.client.impl.Impl::entryDepth,com.google.gwt.core.client.impl.Impl,entryDepth,com/google/gwt/core/client/impl/Impl.java,41,-1
 exit,com.google.gwt.core.client.impl.Impl::exit(Z)V,com.google.gwt.core.client.impl.Impl,exit,com/google/gwt/core/client/impl/Impl.java,313,0
 reportToBrowser,com.google.gwt.core.client.impl.Impl::reportToBrowser(Ljava/lang/Object;)V,com.google.gwt.core.client.impl.Impl,reportToBrowser,com/google/gwt/core/client/impl/Impl.java,203,0
@@ -211,6 +211,7 @@ initUnidimensionalArray,com.google.gwt.lang.Array::initUnidimensionalArray(Ljava
 initializeArrayElementsWithDefaults,com.google.gwt.lang.Array::initializeArrayElementsWithDefaults(II)Ljava/lang/Object;,com.google.gwt.lang.Array,initializeArrayElementsWithDefaults,com/google/gwt/dev/jjs/intrinsic/com/google/gwt/lang/Array.java,216,0
 isJavaArray,com.google.gwt.lang.Array::isJavaArray(Ljava/lang/Object;)Z,com.google.gwt.lang.Array,isJavaArray,com/google/gwt/dev/jjs/intrinsic/com/google/gwt/lang/Array.java,317,0
 stampJavaTypeInfo,com.google.gwt.lang.Array::stampJavaTypeInfo(Ljava/lang/Class;Lcom/google/gwt/core/client/JavaScriptObject;Lcom/google/gwt/core/client/JavaScriptObject;ILjava/lang/Object;)Ljava/lang/Object;,com.google.gwt.lang.Array,stampJavaTypeInfo,com/google/gwt/dev/jjs/intrinsic/com/google/gwt/lang/Array.java,139,0
+stampJavaTypeInfo_0,com.google.gwt.lang.Array::stampJavaTypeInfo(Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;,com.google.gwt.lang.Array,stampJavaTypeInfo,com/google/gwt/dev/jjs/intrinsic/com/google/gwt/lang/Array.java,52,0
 compare,com.google.gwt.lang.BigLongLib::compare(Lcom/google/gwt/lang/BigLongLibBase$BigLong;Lcom/google/gwt/lang/BigLongLibBase$BigLong;)D,com.google.gwt.lang.BigLongLib,compare,com/google/gwt/lang/BigLongLib.java,44,0
 booleanCastMap,com.google.gwt.lang.Cast::booleanCastMap,com.google.gwt.lang.Cast,booleanCastMap,com/google/gwt/dev/jjs/intrinsic/com/google/gwt/lang/Cast.java,46,-1
 canCast,com.google.gwt.lang.Cast::canCast(Ljava/lang/Object;Lcom/google/gwt/core/client/JavaScriptObject;)Z,com.google.gwt.lang.Cast,canCast,com/google/gwt/dev/jjs/intrinsic/com/google/gwt/lang/Cast.java,49,0
@@ -225,6 +226,7 @@ maskUndefined,com.google.gwt.lang.Cast::maskUndefined(Ljava/lang/Object;)Ljava/l
 round_int,com.google.gwt.lang.Cast::round_int(D)I,com.google.gwt.lang.Cast,round_int,com/google/gwt/dev/jjs/intrinsic/com/google/gwt/lang/Cast.java,345,0
 stringCastMap,com.google.gwt.lang.Cast::stringCastMap,com.google.gwt.lang.Cast,stringCastMap,com/google/gwt/dev/jjs/intrinsic/com/google/gwt/lang/Cast.java,44,-1
 C_classLit,com.google.gwt.lang.ClassLiteralHolder::C_classLit,com.google.gwt.lang.ClassLiteralHolder,C_classLit,Unknown,0,-1
+D_classLit,com.google.gwt.lang.ClassLiteralHolder::D_classLit,com.google.gwt.lang.ClassLiteralHolder,D_classLit,Unknown,0,-1
 F_classLit,com.google.gwt.lang.ClassLiteralHolder::F_classLit,com.google.gwt.lang.ClassLiteralHolder,F_classLit,Unknown,0,-1
 I_classLit,com.google.gwt.lang.ClassLiteralHolder::I_classLit,com.google.gwt.lang.ClassLiteralHolder,I_classLit,Unknown,0,-1
 Lcom_allen_1sauer_gwt_voices_client_SoundController_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lcom_allen_1sauer_gwt_voices_client_SoundController_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_allen_1sauer_gwt_voices_client_SoundController_2_classLit,com/allen_sauer/gwt/voices/client/SoundController.java,42,-1
@@ -272,13 +274,18 @@ Lcom_google_gwt_storage_client_StorageMap$StorageEntrySet_2_classLit,com.google.
 Lcom_google_gwt_storage_client_StorageMap$StorageEntry_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lcom_google_gwt_storage_client_StorageMap$StorageEntry_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_google_gwt_storage_client_StorageMap$StorageEntry_2_classLit,com/google/gwt/storage/client/StorageMap.java,56,-1
 Lcom_google_gwt_storage_client_StorageMap_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lcom_google_gwt_storage_client_StorageMap_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_google_gwt_storage_client_StorageMap_2_classLit,com/google/gwt/storage/client/StorageMap.java,51,-1
 Lcom_google_gwt_storage_client_Storage_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lcom_google_gwt_storage_client_Storage_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lcom_google_gwt_storage_client_Storage_2_classLit,com/google/gwt/storage/client/Storage.java,66,-1
-Lio_github_danielchen1009_core_Asteroids$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Asteroids$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Asteroids$1_2_classLit,io/github/danielchen1009/core/Asteroids.java,16,-1
-Lio_github_danielchen1009_core_Asteroids$2_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Asteroids$2_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Asteroids$2_2_classLit,io/github/danielchen1009/core/Asteroids.java,35,-1
-Lio_github_danielchen1009_core_Asteroids_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Asteroids_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Asteroids_2_classLit,io/github/danielchen1009/core/Asteroids.java,9,-1
-Lio_github_danielchen1009_core_GameView_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_GameView_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_GameView_2_classLit,io/github/danielchen1009/core/GameView.java,12,-1
-Lio_github_danielchen1009_core_Game_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Game_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Game_2_classLit,io/github/danielchen1009/core/Game.java,118,-1
-Lio_github_danielchen1009_core_Point_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Point_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Point_2_classLit,io/github/danielchen1009/core/Game.java,10,-1
-Lio_github_danielchen1009_core_Ship_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Ship_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Ship_2_classLit,io/github/danielchen1009/core/Game.java,28,-1
+Lio_github_danielchen1009_core_Asteroids$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Asteroids$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Asteroids$1_2_classLit,io/github/danielchen1009/core/Asteroids.java,19,-1
+Lio_github_danielchen1009_core_Asteroids$2_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Asteroids$2_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Asteroids$2_2_classLit,io/github/danielchen1009/core/Asteroids.java,42,-1
+Lio_github_danielchen1009_core_Asteroids_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Asteroids_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Asteroids_2_classLit,io/github/danielchen1009/core/Asteroids.java,11,-1
+Lio_github_danielchen1009_core_Body_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Body_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Body_2_classLit,io/github/danielchen1009/core/Entity.java,17,-1
+Lio_github_danielchen1009_core_Bullet_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Bullet_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Bullet_2_classLit,io/github/danielchen1009/core/Bullet.java,6,-1
+Lio_github_danielchen1009_core_Edge_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Edge_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Edge_2_classLit,io/github/danielchen1009/core/Entity.java,5,-1
+Lio_github_danielchen1009_core_Entity_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Entity_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Entity_2_classLit,io/github/danielchen1009/core/Entity.java,78,-1
+Lio_github_danielchen1009_core_GameView_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_GameView_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_GameView_2_classLit,io/github/danielchen1009/core/GameView.java,8,-1
+Lio_github_danielchen1009_core_Game_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Game_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Game_2_classLit,io/github/danielchen1009/core/Game.java,7,-1
+Lio_github_danielchen1009_core_Point_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Point_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Point_2_classLit,io/github/danielchen1009/core/Point.java,3,-1
+Lio_github_danielchen1009_core_Rock_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Rock_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Rock_2_classLit,io/github/danielchen1009/core/Rock.java,7,-1
+Lio_github_danielchen1009_core_Ship_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lio_github_danielchen1009_core_Ship_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lio_github_danielchen1009_core_Ship_2_classLit,io/github/danielchen1009/core/Ship.java,6,-1
 Ljava_io_FilterOutputStream_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_io_FilterOutputStream_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_io_FilterOutputStream_2_classLit,com/google/gwt/emul/java/io/FilterOutputStream.java,32,-1
 Ljava_io_OutputStream_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_io_OutputStream_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_io_OutputStream_2_classLit,com/google/gwt/emul/java/io/OutputStream.java,55,-1
 Ljava_io_PrintStream_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_io_PrintStream_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_io_PrintStream_2_classLit,com/google/gwt/emul/java/io/PrintStream.java,21,-1
@@ -319,6 +326,8 @@ Ljava_util_AbstractList$IteratorImpl_2_classLit,com.google.gwt.lang.ClassLiteral
 Ljava_util_AbstractList_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_AbstractList_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_AbstractList_2_classLit,com/google/gwt/emul/java/util/AbstractList.java,32,-1
 Ljava_util_AbstractMap$1$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_AbstractMap$1$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_AbstractMap$1$1_2_classLit,com/google/gwt/emul/java/util/AbstractMap.java,209,-1
 Ljava_util_AbstractMap$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_AbstractMap$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_AbstractMap$1_2_classLit,com/google/gwt/emul/java/util/AbstractMap.java,195,-1
+Ljava_util_AbstractMap$2$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_AbstractMap$2$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_AbstractMap$2$1_2_classLit,com/google/gwt/emul/java/util/AbstractMap.java,300,-1
+Ljava_util_AbstractMap$2_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_AbstractMap$2_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_AbstractMap$2_2_classLit,com/google/gwt/emul/java/util/AbstractMap.java,286,-1
 Ljava_util_AbstractMap$AbstractEntry_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_AbstractMap$AbstractEntry_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_AbstractMap$AbstractEntry_2_classLit,com/google/gwt/emul/java/util/AbstractMap.java,65,-1
 Ljava_util_AbstractMap$SimpleEntry_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_AbstractMap$SimpleEntry_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_AbstractMap$SimpleEntry_2_classLit,com/google/gwt/emul/java/util/AbstractMap.java,33,-1
 Ljava_util_AbstractMapEntry_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_AbstractMapEntry_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_AbstractMapEntry_2_classLit,com/google/gwt/emul/java/util/AbstractMapEntry.java,22,-1
@@ -326,6 +335,7 @@ Ljava_util_AbstractMap_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_
 Ljava_util_AbstractSet_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_AbstractSet_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_AbstractSet_2_classLit,com/google/gwt/emul/java/util/AbstractSet.java,27,-1
 Ljava_util_ArrayList$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_ArrayList$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_ArrayList$1_2_classLit,com/google/gwt/emul/java/util/ArrayList.java,145,-1
 Ljava_util_ArrayList_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_ArrayList_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_ArrayList_2_classLit,com/google/gwt/emul/java/util/ArrayList.java,51,-1
+Ljava_util_Arrays$ArrayList_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_Arrays$ArrayList_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_Arrays$ArrayList_2_classLit,com/google/gwt/emul/java/util/Arrays.java,53,-1
 Ljava_util_Collections$UnmodifiableCollectionIterator_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_Collections$UnmodifiableCollectionIterator_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_Collections$UnmodifiableCollectionIterator_2_classLit,com/google/gwt/emul/java/util/Collections.java,780,-1
 Ljava_util_Collections$UnmodifiableCollection_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_Collections$UnmodifiableCollection_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_Collections$UnmodifiableCollection_2_classLit,com/google/gwt/emul/java/util/Collections.java,296,-1
 Ljava_util_Collections$UnmodifiableList_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_Collections$UnmodifiableList_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_Collections$UnmodifiableList_2_classLit,com/google/gwt/emul/java/util/Collections.java,374,-1
@@ -344,6 +354,7 @@ Ljava_util_InternalStringMap$1_2_classLit,com.google.gwt.lang.ClassLiteralHolder
 Ljava_util_InternalStringMap$2_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_InternalStringMap$2_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_InternalStringMap$2_2_classLit,com/google/gwt/emul/java/util/InternalStringMap.java,109,-1
 Ljava_util_InternalStringMap_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_InternalStringMap_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_InternalStringMap_2_classLit,com/google/gwt/emul/java/util/InternalStringMap.java,27,-1
 Ljava_util_NoSuchElementException_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_NoSuchElementException_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_NoSuchElementException_2_classLit,com/google/gwt/emul/java/util/NoSuchElementException.java,23,-1
+Ljava_util_Random_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_Random_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_Random_2_classLit,com/google/gwt/emul/java/util/Random.java,49,-1
 Ljava_util_StringJoiner_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Ljava_util_StringJoiner_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Ljava_util_StringJoiner_2_classLit,com/google/gwt/emul/java/util/StringJoiner.java,22,-1
 Lplayn_core_Assets_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lplayn_core_Assets_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lplayn_core_Assets_2_classLit,playn/core/Assets.java,26,-1
 Lplayn_core_Audio_2_classLit,com.google.gwt.lang.ClassLiteralHolder::Lplayn_core_Audio_2_classLit,com.google.gwt.lang.ClassLiteralHolder,Lplayn_core_Audio_2_classLit,playn/core/Audio.java,21,-1
@@ -621,62 +632,98 @@ getContext,com.google.gwt.webgl.client.WebGLRenderingContext::getContext(Lcom/go
 WebGLShader,,com.google.gwt.webgl.client.WebGLShader,,com/google/gwt/webgl/client/WebGLShader.java,18,-1
 WebGLTexture,,com.google.gwt.webgl.client.WebGLTexture,,com/google/gwt/webgl/client/WebGLTexture.java,18,-1
 WebGLUniformLocation,,com.google.gwt.webgl.client.WebGLUniformLocation,,com/google/gwt/webgl/client/WebGLUniformLocation.java,18,-1
-Asteroids,,io.github.danielchen1009.core.Asteroids,,io/github/danielchen1009/core/Asteroids.java,9,-1
-$update,io.github.danielchen1009.core.Asteroids::$update(Lio/github/danielchen1009/core/Asteroids;Lplayn/core/Clock;)V,io.github.danielchen1009.core.Asteroids,$update,io/github/danielchen1009/core/Asteroids.java,44,0
-Asteroids,io.github.danielchen1009.core.Asteroids::Asteroids(Lplayn/core/Platform;) <init>,io.github.danielchen1009.core.Asteroids,Asteroids,io/github/danielchen1009/core/Asteroids.java,11,0
-game,io.github.danielchen1009.core.Asteroids::game,io.github.danielchen1009.core.Asteroids,game,io/github/danielchen1009/core/Asteroids.java,10,-1
-Asteroids$1,,io.github.danielchen1009.core.Asteroids$1,,io/github/danielchen1009/core/Asteroids.java,16,-1
-$onEmit,io.github.danielchen1009.core.Asteroids$1::$onEmit(Lio/github/danielchen1009/core/Asteroids$1;Lplayn/core/Keyboard$KeyEvent;)V,io.github.danielchen1009.core.Asteroids$1,$onEmit,io/github/danielchen1009/core/Asteroids.java,17,0
-Asteroids$1,io.github.danielchen1009.core.Asteroids$1::Asteroids$1(Lio/github/danielchen1009/core/Asteroids;) <init>,io.github.danielchen1009.core.Asteroids$1,Asteroids$1,io/github/danielchen1009/core/Asteroids.java,16,0
-this$01,io.github.danielchen1009.core.Asteroids$1::this$01,io.github.danielchen1009.core.Asteroids$1,this$01,io/github/danielchen1009/core/Asteroids.java,16,-1
-Asteroids$2,,io.github.danielchen1009.core.Asteroids$2,,io/github/danielchen1009/core/Asteroids.java,35,-1
-Asteroids$2,io.github.danielchen1009.core.Asteroids$2::Asteroids$2(Lio/github/danielchen1009/core/Asteroids;) <init>,io.github.danielchen1009.core.Asteroids$2,Asteroids$2,io/github/danielchen1009/core/Asteroids.java,35,0
-paintImpl,io.github.danielchen1009.core.Asteroids$2::paintImpl(Lplayn/core/Surface;)V,io.github.danielchen1009.core.Asteroids$2,paintImpl,io/github/danielchen1009/core/Asteroids.java,36,0
-val$size2,io.github.danielchen1009.core.Asteroids$2::val$size2,io.github.danielchen1009.core.Asteroids$2,val$size2,io/github/danielchen1009/core/Asteroids.java,35,-1
-Game,,io.github.danielchen1009.core.Game,,io/github/danielchen1009/core/Game.java,118,-1
-$setAccelerating,io.github.danielchen1009.core.Game::$setAccelerating(Lio/github/danielchen1009/core/Game;Z)V,io.github.danielchen1009.core.Game,$setAccelerating,io/github/danielchen1009/core/Game.java,223,0
-$setTurningLeft,io.github.danielchen1009.core.Game::$setTurningLeft(Lio/github/danielchen1009/core/Game;Z)V,io.github.danielchen1009.core.Game,$setTurningLeft,io/github/danielchen1009/core/Game.java,231,0
-$setTurningRight,io.github.danielchen1009.core.Game::$setTurningRight(Lio/github/danielchen1009/core/Game;Z)V,io.github.danielchen1009.core.Game,$setTurningRight,io/github/danielchen1009/core/Game.java,235,0
-$update_0,io.github.danielchen1009.core.Game::$update(Lio/github/danielchen1009/core/Game;)V,io.github.danielchen1009.core.Game,$update,io/github/danielchen1009/core/Game.java,139,0
-Game,io.github.danielchen1009.core.Game::Game(II) <init>,io.github.danielchen1009.core.Game,Game,io/github/danielchen1009/core/Game.java,128,0
-height_0,io.github.danielchen1009.core.Game::height,io.github.danielchen1009.core.Game,height,io/github/danielchen1009/core/Game.java,125,-1
-isAccelerating,io.github.danielchen1009.core.Game::isAccelerating,io.github.danielchen1009.core.Game,isAccelerating,io/github/danielchen1009/core/Game.java,121,-1
-isTransitioning,io.github.danielchen1009.core.Game::isTransitioning,io.github.danielchen1009.core.Game,isTransitioning,io/github/danielchen1009/core/Game.java,119,-1
-isTransitioningD,io.github.danielchen1009.core.Game::isTransitioningD,io.github.danielchen1009.core.Game,isTransitioningD,io/github/danielchen1009/core/Game.java,119,-1
-isTransitioningL,io.github.danielchen1009.core.Game::isTransitioningL,io.github.danielchen1009.core.Game,isTransitioningL,io/github/danielchen1009/core/Game.java,119,-1
-isTransitioningR,io.github.danielchen1009.core.Game::isTransitioningR,io.github.danielchen1009.core.Game,isTransitioningR,io/github/danielchen1009/core/Game.java,119,-1
-isTransitioningU,io.github.danielchen1009.core.Game::isTransitioningU,io.github.danielchen1009.core.Game,isTransitioningU,io/github/danielchen1009/core/Game.java,119,-1
-isTurningLeft,io.github.danielchen1009.core.Game::isTurningLeft,io.github.danielchen1009.core.Game,isTurningLeft,io/github/danielchen1009/core/Game.java,122,-1
-isTurningRight,io.github.danielchen1009.core.Game::isTurningRight,io.github.danielchen1009.core.Game,isTurningRight,io/github/danielchen1009/core/Game.java,123,-1
-ship,io.github.danielchen1009.core.Game::ship,io.github.danielchen1009.core.Game,ship,io/github/danielchen1009/core/Game.java,124,-1
-transitionShip,io.github.danielchen1009.core.Game::transitionShip,io.github.danielchen1009.core.Game,transitionShip,io/github/danielchen1009/core/Game.java,120,-1
-width_0,io.github.danielchen1009.core.Game::width,io.github.danielchen1009.core.Game,width,io/github/danielchen1009/core/Game.java,125,-1
-GameView,,io.github.danielchen1009.core.GameView,,io/github/danielchen1009/core/GameView.java,12,-1
-GameView,io.github.danielchen1009.core.GameView::GameView(Lio/github/danielchen1009/core/Game;Lpythagoras/f/IDimension;) <init>,io.github.danielchen1009.core.GameView,GameView,io/github/danielchen1009/core/GameView.java,17,0
-game,io.github.danielchen1009.core.GameView::game,io.github.danielchen1009.core.GameView,game,io/github/danielchen1009/core/GameView.java,14,-1
-height_1,io.github.danielchen1009.core.GameView::height()F,io.github.danielchen1009.core.GameView,height,io/github/danielchen1009/core/GameView.java,25,0
-paintImpl_0,io.github.danielchen1009.core.GameView::paintImpl(Lplayn/core/Surface;)V,io.github.danielchen1009.core.GameView,paintImpl,io/github/danielchen1009/core/GameView.java,27,0
-viewSize,io.github.danielchen1009.core.GameView::viewSize,io.github.danielchen1009.core.GameView,viewSize,io/github/danielchen1009/core/GameView.java,15,-1
-width_2,io.github.danielchen1009.core.GameView::width()F,io.github.danielchen1009.core.GameView,width,io/github/danielchen1009/core/GameView.java,24,0
-Point,,io.github.danielchen1009.core.Point,,io/github/danielchen1009/core/Game.java,10,-1
-$add,io.github.danielchen1009.core.Point::$add(Lio/github/danielchen1009/core/Point;Lio/github/danielchen1009/core/Point;)Lio/github/danielchen1009/core/Point;,io.github.danielchen1009.core.Point,$add,io/github/danielchen1009/core/Game.java,18,0
-Point,io.github.danielchen1009.core.Point::Point(DD) <init>,io.github.danielchen1009.core.Point,Point,io/github/danielchen1009/core/Game.java,13,0
-toString_8,io.github.danielchen1009.core.Point::toString()Ljava/lang/String;,io.github.danielchen1009.core.Point,toString,io/github/danielchen1009/core/Game.java,23,0
-x_0,io.github.danielchen1009.core.Point::x,io.github.danielchen1009.core.Point,x,io/github/danielchen1009/core/Game.java,11,-1
-y_0,io.github.danielchen1009.core.Point::y,io.github.danielchen1009.core.Point,y,io/github/danielchen1009/core/Game.java,11,-1
-Ship,,io.github.danielchen1009.core.Ship,,io/github/danielchen1009/core/Game.java,28,-1
-$greaterThan,io.github.danielchen1009.core.Ship::$greaterThan(Lio/github/danielchen1009/core/Ship;I)Z,io.github.danielchen1009.core.Ship,$greaterThan,io/github/danielchen1009/core/Game.java,104,0
-$lessThan,io.github.danielchen1009.core.Ship::$lessThan(Lio/github/danielchen1009/core/Ship;I)Z,io.github.danielchen1009.core.Ship,$lessThan,io/github/danielchen1009/core/Game.java,108,0
-$move,io.github.danielchen1009.core.Ship::$move(Lio/github/danielchen1009/core/Ship;D)V,io.github.danielchen1009.core.Ship,$move,io/github/danielchen1009/core/Game.java,52,0
-$rotate,io.github.danielchen1009.core.Ship::$rotate(Lio/github/danielchen1009/core/Ship;Lio/github/danielchen1009/core/Direction;)V,io.github.danielchen1009.core.Ship,$rotate,io/github/danielchen1009/core/Game.java,69,0
-Ship,io.github.danielchen1009.core.Ship::Ship(Lio/github/danielchen1009/core/Point;DDD) <init>,io.github.danielchen1009.core.Ship,Ship,io/github/danielchen1009/core/Game.java,35,0
-angle,io.github.danielchen1009.core.Ship::angle,io.github.danielchen1009.core.Ship,angle,io/github/danielchen1009/core/Game.java,31,-1
-ax,io.github.danielchen1009.core.Ship::ax,io.github.danielchen1009.core.Ship,ax,io/github/danielchen1009/core/Game.java,30,-1
-ay,io.github.danielchen1009.core.Ship::ay,io.github.danielchen1009.core.Ship,ay,io/github/danielchen1009/core/Game.java,30,-1
-center,io.github.danielchen1009.core.Ship::center,io.github.danielchen1009.core.Ship,center,io/github/danielchen1009/core/Game.java,32,-1
-dx,io.github.danielchen1009.core.Ship::dx,io.github.danielchen1009.core.Ship,dx,io/github/danielchen1009/core/Game.java,30,-1
-dy,io.github.danielchen1009.core.Ship::dy,io.github.danielchen1009.core.Ship,dy,io/github/danielchen1009/core/Game.java,30,-1
-points,io.github.danielchen1009.core.Ship::points,io.github.danielchen1009.core.Ship,points,io/github/danielchen1009/core/Game.java,29,-1
+Asteroids,,io.github.danielchen1009.core.Asteroids,,io/github/danielchen1009/core/Asteroids.java,11,-1
+$update,io.github.danielchen1009.core.Asteroids::$update(Lio/github/danielchen1009/core/Asteroids;Lplayn/core/Clock;)V,io.github.danielchen1009.core.Asteroids,$update,io/github/danielchen1009/core/Asteroids.java,53,0
+Asteroids,io.github.danielchen1009.core.Asteroids::Asteroids(Lplayn/core/Platform;) <init>,io.github.danielchen1009.core.Asteroids,Asteroids,io/github/danielchen1009/core/Asteroids.java,14,0
+game,io.github.danielchen1009.core.Asteroids::game,io.github.danielchen1009.core.Asteroids,game,io/github/danielchen1009/core/Asteroids.java,12,-1
+Asteroids$1,,io.github.danielchen1009.core.Asteroids$1,,io/github/danielchen1009/core/Asteroids.java,19,-1
+$onEmit,io.github.danielchen1009.core.Asteroids$1::$onEmit(Lio/github/danielchen1009/core/Asteroids$1;Lplayn/core/Keyboard$KeyEvent;)V,io.github.danielchen1009.core.Asteroids$1,$onEmit,io/github/danielchen1009/core/Asteroids.java,21,0
+Asteroids$1,io.github.danielchen1009.core.Asteroids$1::Asteroids$1(Lio/github/danielchen1009/core/Asteroids;) <init>,io.github.danielchen1009.core.Asteroids$1,Asteroids$1,io/github/danielchen1009/core/Asteroids.java,19,0
+this$01,io.github.danielchen1009.core.Asteroids$1::this$01,io.github.danielchen1009.core.Asteroids$1,this$01,io/github/danielchen1009/core/Asteroids.java,19,-1
+Asteroids$2,,io.github.danielchen1009.core.Asteroids$2,,io/github/danielchen1009/core/Asteroids.java,42,-1
+Asteroids$2,io.github.danielchen1009.core.Asteroids$2::Asteroids$2(Lio/github/danielchen1009/core/Asteroids;) <init>,io.github.danielchen1009.core.Asteroids$2,Asteroids$2,io/github/danielchen1009/core/Asteroids.java,42,0
+paintImpl,io.github.danielchen1009.core.Asteroids$2::paintImpl(Lplayn/core/Surface;)V,io.github.danielchen1009.core.Asteroids$2,paintImpl,io/github/danielchen1009/core/Asteroids.java,43,0
+val$size2,io.github.danielchen1009.core.Asteroids$2::val$size2,io.github.danielchen1009.core.Asteroids$2,val$size2,io/github/danielchen1009/core/Asteroids.java,42,-1
+Body,,io.github.danielchen1009.core.Body,,io/github/danielchen1009/core/Entity.java,17,-1
+$isOutOfBounds,io.github.danielchen1009.core.Body::$isOutOfBounds(Lio/github/danielchen1009/core/Body;)Ljava/util/Set;,io.github.danielchen1009.core.Body,$isOutOfBounds,io/github/danielchen1009/core/Entity.java,45,0
+$rotateTo,io.github.danielchen1009.core.Body::$rotateTo(Lio/github/danielchen1009/core/Body;D)V,io.github.danielchen1009.core.Body,$rotateTo,io/github/danielchen1009/core/Entity.java,31,0
+$translate,io.github.danielchen1009.core.Body::$translate(Lio/github/danielchen1009/core/Body;Lio/github/danielchen1009/core/Point;)V,io.github.danielchen1009.core.Body,$translate,io/github/danielchen1009/core/Entity.java,68,0
+Body,io.github.danielchen1009.core.Body::Body(Ljava/util/List;Lio/github/danielchen1009/core/Point;) <init>,io.github.danielchen1009.core.Body,Body,io/github/danielchen1009/core/Entity.java,22,0
+center,io.github.danielchen1009.core.Body::center,io.github.danielchen1009.core.Body,center,io/github/danielchen1009/core/Entity.java,20,-1
+model,io.github.danielchen1009.core.Body::model,io.github.danielchen1009.core.Body,model,io/github/danielchen1009/core/Entity.java,18,-1
+points,io.github.danielchen1009.core.Body::points,io.github.danielchen1009.core.Body,points,io/github/danielchen1009/core/Entity.java,19,-1
+toString_8,io.github.danielchen1009.core.Body::toString()Ljava/lang/String;,io.github.danielchen1009.core.Body,toString,io/github/danielchen1009/core/Entity.java,73,0
+Bullet,,io.github.danielchen1009.core.Bullet,,io/github/danielchen1009/core/Bullet.java,6,-1
+Bullet,io.github.danielchen1009.core.Bullet::Bullet(Lio/github/danielchen1009/core/Point;D) <init>,io.github.danielchen1009.core.Bullet,Bullet,io/github/danielchen1009/core/Bullet.java,11,0
+isActive_0,io.github.danielchen1009.core.Bullet::isActive()Z,io.github.danielchen1009.core.Bullet,isActive,io/github/danielchen1009/core/Bullet.java,28,0
+lifetimeRemaining,io.github.danielchen1009.core.Bullet::lifetimeRemaining,io.github.danielchen1009.core.Bullet,lifetimeRemaining,io/github/danielchen1009/core/Bullet.java,9,-1
+update_0,io.github.danielchen1009.core.Bullet::update()V,io.github.danielchen1009.core.Bullet,update,io/github/danielchen1009/core/Bullet.java,22,0
+Edge,,io.github.danielchen1009.core.Edge,,io/github/danielchen1009/core/Entity.java,5,-1
+$clinit_Edge,io.github.danielchen1009.core.Edge::$clinit()V,io.github.danielchen1009.core.Edge,$clinit,io/github/danielchen1009/core/Entity.java,5,0
+DOWN,io.github.danielchen1009.core.Edge::DOWN,io.github.danielchen1009.core.Edge,DOWN,io/github/danielchen1009/core/Entity.java,6,-1
+Edge,io.github.danielchen1009.core.Edge::Edge(Ljava/lang/String;IDD) <init>,io.github.danielchen1009.core.Edge,Edge,io/github/danielchen1009/core/Entity.java,11,0
+LEFT,io.github.danielchen1009.core.Edge::LEFT,io.github.danielchen1009.core.Edge,LEFT,io/github/danielchen1009/core/Entity.java,6,-1
+NONE,io.github.danielchen1009.core.Edge::NONE,io.github.danielchen1009.core.Edge,NONE,io/github/danielchen1009/core/Entity.java,6,-1
+RIGHT,io.github.danielchen1009.core.Edge::RIGHT,io.github.danielchen1009.core.Edge,RIGHT,io/github/danielchen1009/core/Entity.java,6,-1
+UP,io.github.danielchen1009.core.Edge::UP,io.github.danielchen1009.core.Edge,UP,io/github/danielchen1009/core/Entity.java,6,-1
+dx,io.github.danielchen1009.core.Edge::dx,io.github.danielchen1009.core.Edge,dx,io/github/danielchen1009/core/Entity.java,8,-1
+dy,io.github.danielchen1009.core.Edge::dy,io.github.danielchen1009.core.Edge,dy,io/github/danielchen1009/core/Entity.java,9,-1
+values_6,io.github.danielchen1009.core.Edge::values()[Lio/github/danielchen1009/core/Edge;,io.github.danielchen1009.core.Edge,values,io/github/danielchen1009/core/Entity.java,5,0
+Entity,,io.github.danielchen1009.core.Entity,,io/github/danielchen1009/core/Entity.java,78,-1
+$rotateBody,io.github.danielchen1009.core.Entity::$rotateBody(Lio/github/danielchen1009/core/Entity;D)V,io.github.danielchen1009.core.Entity,$rotateBody,io/github/danielchen1009/core/Entity.java,124,0
+$setPrimaryBody,io.github.danielchen1009.core.Entity::$setPrimaryBody(Lio/github/danielchen1009/core/Entity;Lio/github/danielchen1009/core/Body;)V,io.github.danielchen1009.core.Entity,$setPrimaryBody,io/github/danielchen1009/core/Entity.java,132,0
+$update_0,io.github.danielchen1009.core.Entity::$update(Lio/github/danielchen1009/core/Entity;)V,io.github.danielchen1009.core.Entity,$update,io/github/danielchen1009/core/Entity.java,94,0
+Entity_0,io.github.danielchen1009.core.Entity::Entity() <init>,io.github.danielchen1009.core.Entity,Entity,io/github/danielchen1009/core/Entity.java,90,0
+bodyAngle,io.github.danielchen1009.core.Entity::bodyAngle,io.github.danielchen1009.core.Entity,bodyAngle,io/github/danielchen1009/core/Entity.java,88,-1
+dx,io.github.danielchen1009.core.Entity::dx,io.github.danielchen1009.core.Entity,dx,io/github/danielchen1009/core/Entity.java,84,-1
+dy,io.github.danielchen1009.core.Entity::dy,io.github.danielchen1009.core.Entity,dy,io/github/danielchen1009/core/Entity.java,85,-1
+isActive,io.github.danielchen1009.core.Entity::isActive()Z,io.github.danielchen1009.core.Entity,isActive,io/github/danielchen1009/core/Entity.java,136,0
+primaryBody,io.github.danielchen1009.core.Entity::primaryBody,io.github.danielchen1009.core.Entity,primaryBody,io/github/danielchen1009/core/Entity.java,80,-1
+travelAngle,io.github.danielchen1009.core.Entity::travelAngle,io.github.danielchen1009.core.Entity,travelAngle,io/github/danielchen1009/core/Entity.java,87,-1
+update,io.github.danielchen1009.core.Entity::update()V,io.github.danielchen1009.core.Entity,update,io/github/danielchen1009/core/Entity.java,94,0
+wrapBodies,io.github.danielchen1009.core.Entity::wrapBodies,io.github.danielchen1009.core.Entity,wrapBodies,io/github/danielchen1009/core/Entity.java,81,-1
+Game,,io.github.danielchen1009.core.Game,,io/github/danielchen1009/core/Game.java,7,-1
+$setAccelerating,io.github.danielchen1009.core.Game::$setAccelerating(Lio/github/danielchen1009/core/Game;Z)V,io.github.danielchen1009.core.Game,$setAccelerating,io/github/danielchen1009/core/Game.java,33,0
+$setFiring,io.github.danielchen1009.core.Game::$setFiring(Lio/github/danielchen1009/core/Game;)V,io.github.danielchen1009.core.Game,$setFiring,io/github/danielchen1009/core/Game.java,49,0
+$setTurningLeft,io.github.danielchen1009.core.Game::$setTurningLeft(Lio/github/danielchen1009/core/Game;Z)V,io.github.danielchen1009.core.Game,$setTurningLeft,io/github/danielchen1009/core/Game.java,37,0
+$setTurningRight,io.github.danielchen1009.core.Game::$setTurningRight(Lio/github/danielchen1009/core/Game;Z)V,io.github.danielchen1009.core.Game,$setTurningRight,io/github/danielchen1009/core/Game.java,41,0
+$update_1,io.github.danielchen1009.core.Game::$update(Lio/github/danielchen1009/core/Game;)V,io.github.danielchen1009.core.Game,$update,io/github/danielchen1009/core/Game.java,24,0
+Game,io.github.danielchen1009.core.Game::Game() <init>,io.github.danielchen1009.core.Game,Game,io/github/danielchen1009/core/Game.java,12,0
+entities,io.github.danielchen1009.core.Game::entities,io.github.danielchen1009.core.Game,entities,io/github/danielchen1009/core/Game.java,9,-1
+ship,io.github.danielchen1009.core.Game::ship,io.github.danielchen1009.core.Game,ship,io/github/danielchen1009/core/Game.java,8,-1
+GameView,,io.github.danielchen1009.core.GameView,,io/github/danielchen1009/core/GameView.java,8,-1
+$paintBody,io.github.danielchen1009.core.GameView::$paintBody(Lio/github/danielchen1009/core/GameView;Lplayn/core/Surface;Lio/github/danielchen1009/core/Body;)V,io.github.danielchen1009.core.GameView,$paintBody,io/github/danielchen1009/core/GameView.java,46,0
+$paintEntity,io.github.danielchen1009.core.GameView::$paintEntity(Lio/github/danielchen1009/core/GameView;Lplayn/core/Surface;Lio/github/danielchen1009/core/Entity;)V,io.github.danielchen1009.core.GameView,$paintEntity,io/github/danielchen1009/core/GameView.java,39,0
+GameView,io.github.danielchen1009.core.GameView::GameView(Lio/github/danielchen1009/core/Game;Lpythagoras/f/IDimension;) <init>,io.github.danielchen1009.core.GameView,GameView,io/github/danielchen1009/core/GameView.java,13,0
+game,io.github.danielchen1009.core.GameView::game,io.github.danielchen1009.core.GameView,game,io/github/danielchen1009/core/GameView.java,10,-1
+height_1,io.github.danielchen1009.core.GameView::height()F,io.github.danielchen1009.core.GameView,height,io/github/danielchen1009/core/GameView.java,26,0
+paintImpl_0,io.github.danielchen1009.core.GameView::paintImpl(Lplayn/core/Surface;)V,io.github.danielchen1009.core.GameView,paintImpl,io/github/danielchen1009/core/GameView.java,31,0
+viewSize,io.github.danielchen1009.core.GameView::viewSize,io.github.danielchen1009.core.GameView,viewSize,io/github/danielchen1009/core/GameView.java,11,-1
+width_2,io.github.danielchen1009.core.GameView::width()F,io.github.danielchen1009.core.GameView,width,io/github/danielchen1009/core/GameView.java,21,0
+Point,,io.github.danielchen1009.core.Point,,io/github/danielchen1009/core/Point.java,3,-1
+$add,io.github.danielchen1009.core.Point::$add(Lio/github/danielchen1009/core/Point;Lio/github/danielchen1009/core/Point;)V,io.github.danielchen1009.core.Point,$add,io/github/danielchen1009/core/Point.java,11,0
+$copy,io.github.danielchen1009.core.Point::$copy(Lio/github/danielchen1009/core/Point;)Lio/github/danielchen1009/core/Point;,io.github.danielchen1009.core.Point,$copy,io/github/danielchen1009/core/Point.java,16,0
+$toString_1,io.github.danielchen1009.core.Point::$toString(Lio/github/danielchen1009/core/Point;)Ljava/lang/String;,io.github.danielchen1009.core.Point,$toString,io/github/danielchen1009/core/Point.java,21,0
+Point,io.github.danielchen1009.core.Point::Point(DD) <init>,io.github.danielchen1009.core.Point,Point,io/github/danielchen1009/core/Point.java,6,0
+toString_9,io.github.danielchen1009.core.Point::toString()Ljava/lang/String;,io.github.danielchen1009.core.Point,toString,io/github/danielchen1009/core/Point.java,21,0
+x_0,io.github.danielchen1009.core.Point::x,io.github.danielchen1009.core.Point,x,io/github/danielchen1009/core/Point.java,4,-1
+y_0,io.github.danielchen1009.core.Point::y,io.github.danielchen1009.core.Point,y,io/github/danielchen1009/core/Point.java,4,-1
+Rock,,io.github.danielchen1009.core.Rock,,io/github/danielchen1009/core/Rock.java,7,-1
+$createRock,io.github.danielchen1009.core.Rock::$createRock(Lio/github/danielchen1009/core/Rock;)Lio/github/danielchen1009/core/Body;,io.github.danielchen1009.core.Rock,$createRock,io/github/danielchen1009/core/Rock.java,32,0
+Rock,io.github.danielchen1009.core.Rock::Rock(Lio/github/danielchen1009/core/Point;D) <init>,io.github.danielchen1009.core.Rock,Rock,io/github/danielchen1009/core/Rock.java,14,0
+center,io.github.danielchen1009.core.Rock::center,io.github.danielchen1009.core.Rock,center,io/github/danielchen1009/core/Rock.java,8,-1
+rand,io.github.danielchen1009.core.Rock::rand,io.github.danielchen1009.core.Rock,rand,io/github/danielchen1009/core/Rock.java,12,-1
+rotationSpeed,io.github.danielchen1009.core.Rock::rotationSpeed,io.github.danielchen1009.core.Rock,rotationSpeed,io/github/danielchen1009/core/Rock.java,10,-1
+size_0,io.github.danielchen1009.core.Rock::size,io.github.danielchen1009.core.Rock,size,io/github/danielchen1009/core/Rock.java,9,-1
+speed,io.github.danielchen1009.core.Rock::speed,io.github.danielchen1009.core.Rock,speed,io/github/danielchen1009/core/Rock.java,11,-1
+update_1,io.github.danielchen1009.core.Rock::update()V,io.github.danielchen1009.core.Rock,update,io/github/danielchen1009/core/Rock.java,25,0
+Ship,,io.github.danielchen1009.core.Ship,,io/github/danielchen1009/core/Ship.java,6,-1
+$accelerate,io.github.danielchen1009.core.Ship::$accelerate(Lio/github/danielchen1009/core/Ship;D)V,io.github.danielchen1009.core.Ship,$accelerate,io/github/danielchen1009/core/Ship.java,36,0
+Ship,io.github.danielchen1009.core.Ship::Ship(Lio/github/danielchen1009/core/Point;) <init>,io.github.danielchen1009.core.Ship,Ship,io/github/danielchen1009/core/Ship.java,12,0
+acceleration,io.github.danielchen1009.core.Ship::acceleration,io.github.danielchen1009.core.Ship,acceleration,io/github/danielchen1009/core/Ship.java,9,-1
+turningLeft,io.github.danielchen1009.core.Ship::turningLeft,io.github.danielchen1009.core.Ship,turningLeft,io/github/danielchen1009/core/Ship.java,10,-1
+turningRight,io.github.danielchen1009.core.Ship::turningRight,io.github.danielchen1009.core.Ship,turningRight,io/github/danielchen1009/core/Ship.java,10,-1
+update_2,io.github.danielchen1009.core.Ship::update()V,io.github.danielchen1009.core.Ship,update,io/github/danielchen1009/core/Ship.java,20,0
 FilterOutputStream,,java.io.FilterOutputStream,,com/google/gwt/emul/java/io/FilterOutputStream.java,32,-1
 OutputStream,,java.io.OutputStream,,com/google/gwt/emul/java/io/OutputStream.java,55,-1
 PrintStream,,java.io.PrintStream,,com/google/gwt/emul/java/io/PrintStream.java,21,-1
@@ -686,7 +733,7 @@ $charAt,java.lang.AbstractStringBuilder::$charAt(Ljava/lang/AbstractStringBuilde
 $setLength,java.lang.AbstractStringBuilder::$setLength(Ljava/lang/AbstractStringBuilder;I)V,java.lang.AbstractStringBuilder,$setLength,com/google/gwt/emul/java/lang/AbstractStringBuilder.java,37,0
 AbstractStringBuilder,java.lang.AbstractStringBuilder::AbstractStringBuilder(Ljava/lang/String;) <init>,java.lang.AbstractStringBuilder,AbstractStringBuilder,com/google/gwt/emul/java/lang/AbstractStringBuilder.java,28,0
 string,java.lang.AbstractStringBuilder::string,java.lang.AbstractStringBuilder,string,com/google/gwt/emul/java/lang/AbstractStringBuilder.java,26,-1
-toString_9,java.lang.AbstractStringBuilder::toString()Ljava/lang/String;,java.lang.AbstractStringBuilder,toString,com/google/gwt/emul/java/lang/AbstractStringBuilder.java,107,0
+toString_10,java.lang.AbstractStringBuilder::toString()Ljava/lang/String;,java.lang.AbstractStringBuilder,toString,com/google/gwt/emul/java/lang/AbstractStringBuilder.java,107,0
 Boolean,,java.lang.Boolean,,com/google/gwt/emul/java/lang/Boolean.java,29,-1
 $clinit_Boolean,java.lang.Boolean::$clinit()V,java.lang.Boolean,$clinit,com/google/gwt/emul/java/lang/Boolean.java,29,0
 Class,,java.lang.Class,,com/google/gwt/emul/java/lang/Class.java,33,-1
@@ -718,7 +765,7 @@ nextSequentialId,java.lang.Class::nextSequentialId,java.lang.Class,nextSequentia
 packageName,java.lang.Class::packageName,java.lang.Class,packageName,com/google/gwt/emul/java/lang/Class.java,296,-1
 sequentialId,java.lang.Class::sequentialId,java.lang.Class,sequentialId,com/google/gwt/emul/java/lang/Class.java,308,-1
 simpleName,java.lang.Class::simpleName,java.lang.Class,simpleName,com/google/gwt/emul/java/lang/Class.java,290,-1
-toString_10,java.lang.Class::toString()Ljava/lang/String;,java.lang.Class,toString,com/google/gwt/emul/java/lang/Class.java,390,0
+toString_11,java.lang.Class::toString()Ljava/lang/String;,java.lang.Class,toString,com/google/gwt/emul/java/lang/Class.java,390,0
 typeId,java.lang.Class::typeId,java.lang.Class,typeId,com/google/gwt/emul/java/lang/Class.java,300,-1
 typeName,java.lang.Class::typeName,java.lang.Class,typeName,com/google/gwt/emul/java/lang/Class.java,292,-1
 Double,,java.lang.Double,,com/google/gwt/emul/java/lang/Double.java,27,-1
@@ -734,7 +781,8 @@ IllegalArgumentException,,java.lang.IllegalArgumentException,,com/google/gwt/emu
 IllegalArgumentException,java.lang.IllegalArgumentException::IllegalArgumentException() <init>,java.lang.IllegalArgumentException,IllegalArgumentException,com/google/gwt/emul/java/lang/IllegalArgumentException.java,25,0
 IllegalArgumentException_0,java.lang.IllegalArgumentException::IllegalArgumentException(Ljava/lang/String;) <init>,java.lang.IllegalArgumentException,IllegalArgumentException,com/google/gwt/emul/java/lang/IllegalArgumentException.java,28,0
 IllegalStateException,,java.lang.IllegalStateException,,com/google/gwt/emul/java/lang/IllegalStateException.java,22,-1
-IllegalStateException,java.lang.IllegalStateException::IllegalStateException(Ljava/lang/String;) <init>,java.lang.IllegalStateException,IllegalStateException,com/google/gwt/emul/java/lang/IllegalStateException.java,27,0
+IllegalStateException,java.lang.IllegalStateException::IllegalStateException() <init>,java.lang.IllegalStateException,IllegalStateException,com/google/gwt/emul/java/lang/IllegalStateException.java,24,0
+IllegalStateException_0,java.lang.IllegalStateException::IllegalStateException(Ljava/lang/String;) <init>,java.lang.IllegalStateException,IllegalStateException,com/google/gwt/emul/java/lang/IllegalStateException.java,27,0
 IndexOutOfBoundsException,,java.lang.IndexOutOfBoundsException,,com/google/gwt/emul/java/lang/IndexOutOfBoundsException.java,23,-1
 IndexOutOfBoundsException,java.lang.IndexOutOfBoundsException::IndexOutOfBoundsException() <init>,java.lang.IndexOutOfBoundsException,IndexOutOfBoundsException,com/google/gwt/emul/java/lang/IndexOutOfBoundsException.java,25,0
 IndexOutOfBoundsException_0,java.lang.IndexOutOfBoundsException::IndexOutOfBoundsException(Ljava/lang/String;) <init>,java.lang.IndexOutOfBoundsException,IndexOutOfBoundsException,com/google/gwt/emul/java/lang/IndexOutOfBoundsException.java,28,0
@@ -742,7 +790,7 @@ Integer,,java.lang.Integer,,com/google/gwt/emul/java/lang/Integer.java,21,-1
 Integer,java.lang.Integer::Integer(I) <init>,java.lang.Integer,Integer,com/google/gwt/emul/java/lang/Integer.java,263,0
 equals_4,java.lang.Integer::equals(Ljava/lang/Object;)Z,java.lang.Integer,equals,com/google/gwt/emul/java/lang/Integer.java,287,0
 hashCode_5,java.lang.Integer::hashCode()I,java.lang.Integer,hashCode,com/google/gwt/emul/java/lang/Integer.java,297,0
-toString_11,java.lang.Integer::toString()Ljava/lang/String;,java.lang.Integer,toString,com/google/gwt/emul/java/lang/Integer.java,317,0
+toString_12,java.lang.Integer::toString()Ljava/lang/String;,java.lang.Integer,toString,com/google/gwt/emul/java/lang/Integer.java,317,0
 value_0,java.lang.Integer::value,java.lang.Integer,value,com/google/gwt/emul/java/lang/Integer.java,261,-1
 valueOf,java.lang.Integer::valueOf(I)Ljava/lang/Integer;,java.lang.Integer,valueOf,com/google/gwt/emul/java/lang/Integer.java,231,0
 $clinit_Integer$BoxedValues,java.lang.Integer$BoxedValues::$clinit()V,java.lang.Integer$BoxedValues,$clinit,com/google/gwt/emul/java/lang/Integer.java,32,0
@@ -781,7 +829,7 @@ fileName,java.lang.StackTraceElement::fileName,java.lang.StackTraceElement,fileN
 hashCode_6,java.lang.StackTraceElement::hashCode()I,java.lang.StackTraceElement,hashCode,com/google/gwt/emul/java/lang/StackTraceElement.java,78,0
 lineNumber,java.lang.StackTraceElement::lineNumber,java.lang.StackTraceElement,lineNumber,com/google/gwt/emul/java/lang/StackTraceElement.java,32,-1
 methodName,java.lang.StackTraceElement::methodName,java.lang.StackTraceElement,methodName,com/google/gwt/emul/java/lang/StackTraceElement.java,34,-1
-toString_12,java.lang.StackTraceElement::toString()Ljava/lang/String;,java.lang.StackTraceElement,toString,com/google/gwt/emul/java/lang/StackTraceElement.java,83,0
+toString_13,java.lang.StackTraceElement::toString()Ljava/lang/String;,java.lang.StackTraceElement,toString,com/google/gwt/emul/java/lang/StackTraceElement.java,83,0
 String,,java.lang.String,,com/google/gwt/emul/java/lang/String.java,46,-1
 $charAt_0,java.lang.String::$charAt(Ljava/lang/String;I)C,java.lang.String,$charAt,com/google/gwt/emul/java/lang/String.java,360,0
 $equals,java.lang.String::$equals(Ljava/lang/String;Ljava/lang/Object;)Z,java.lang.String,$equals,com/google/gwt/emul/java/lang/String.java,410,0
@@ -877,7 +925,7 @@ getElementType,java.nio.ByteBuffer::getElementType()I,java.nio.ByteBuffer,getEle
 getTypedArray,java.nio.ByteBuffer::getTypedArray()Lcom/google/gwt/typedarrays/shared/ArrayBufferView;,java.nio.ByteBuffer,getTypedArray,playn/super/java/nio/ByteBuffer.java,940,0
 hashCode_7,java.nio.ByteBuffer::hashCode()I,java.nio.ByteBuffer,hashCode,playn/super/java/nio/ByteBuffer.java,548,0
 order,java.nio.ByteBuffer::order,java.nio.ByteBuffer,order,playn/super/java/nio/ByteBuffer.java,40,-1
-toString_13,java.nio.ByteBuffer::toString()Ljava/lang/String;,java.nio.ByteBuffer,toString,playn/super/java/nio/ByteBuffer.java,924,0
+toString_14,java.nio.ByteBuffer::toString()Ljava/lang/String;,java.nio.ByteBuffer,toString,playn/super/java/nio/ByteBuffer.java,924,0
 ByteOrder,,java.nio.ByteOrder,,playn/super/java/nio/ByteOrder.java,24,-1
 $clinit_ByteOrder,java.nio.ByteOrder::$clinit()V,java.nio.ByteOrder,$clinit,playn/super/java/nio/ByteOrder.java,24,0
 BIG_ENDIAN,java.nio.ByteOrder::BIG_ENDIAN,java.nio.ByteOrder,BIG_ENDIAN,playn/super/java/nio/ByteOrder.java,27,-1
@@ -885,7 +933,7 @@ ByteOrder,java.nio.ByteOrder::ByteOrder(Ljava/lang/String;) <init>,java.nio.Byte
 LITTLE_ENDIAN,java.nio.ByteOrder::LITTLE_ENDIAN,java.nio.ByteOrder,LITTLE_ENDIAN,playn/super/java/nio/ByteOrder.java,30,-1
 NATIVE_ORDER,java.nio.ByteOrder::NATIVE_ORDER,java.nio.ByteOrder,NATIVE_ORDER,playn/super/java/nio/ByteOrder.java,32,-1
 name_0,java.nio.ByteOrder::name,java.nio.ByteOrder,name,playn/super/java/nio/ByteOrder.java,49,-1
-toString_14,java.nio.ByteOrder::toString()Ljava/lang/String;,java.nio.ByteOrder,toString,playn/super/java/nio/ByteOrder.java,60,0
+toString_15,java.nio.ByteOrder::toString()Ljava/lang/String;,java.nio.ByteOrder,toString,playn/super/java/nio/ByteOrder.java,60,0
 FloatBuffer,,java.nio.FloatBuffer,,playn/super/java/nio/FloatBuffer.java,34,-1
 $get_1,java.nio.FloatBuffer::$get(Ljava/nio/FloatBuffer;I)F,java.nio.FloatBuffer,$get,playn/super/java/nio/FloatBuffer.java,218,0
 $put_0,java.nio.FloatBuffer::$put(Ljava/nio/FloatBuffer;[FII)Ljava/nio/FloatBuffer;,java.nio.FloatBuffer,$put,playn/super/java/nio/FloatBuffer.java,312,0
@@ -896,7 +944,7 @@ floatArray,java.nio.FloatBuffer::floatArray,java.nio.FloatBuffer,floatArray,play
 getElementSize_0,java.nio.FloatBuffer::getElementSize()I,java.nio.FloatBuffer,getElementSize,playn/super/java/nio/FloatBuffer.java,405,0
 getElementType_0,java.nio.FloatBuffer::getElementType()I,java.nio.FloatBuffer,getElementType,playn/super/java/nio/FloatBuffer.java,409,0
 getTypedArray_0,java.nio.FloatBuffer::getTypedArray()Lcom/google/gwt/typedarrays/shared/ArrayBufferView;,java.nio.FloatBuffer,getTypedArray,playn/super/java/nio/FloatBuffer.java,401,0
-toString_15,java.nio.FloatBuffer::toString()Ljava/lang/String;,java.nio.FloatBuffer,toString,playn/super/java/nio/FloatBuffer.java,389,0
+toString_16,java.nio.FloatBuffer::toString()Ljava/lang/String;,java.nio.FloatBuffer,toString,playn/super/java/nio/FloatBuffer.java,389,0
 IntBuffer,,java.nio.IntBuffer,,playn/super/java/nio/IntBuffer.java,35,-1
 $get_2,java.nio.IntBuffer::$get(Ljava/nio/IntBuffer;I)I,java.nio.IntBuffer,$get,playn/super/java/nio/IntBuffer.java,221,0
 IntBuffer,java.nio.IntBuffer::IntBuffer(Ljava/nio/ByteBuffer;) <init>,java.nio.IntBuffer,IntBuffer,playn/super/java/nio/IntBuffer.java,61,0
@@ -907,7 +955,7 @@ getElementType_1,java.nio.IntBuffer::getElementType()I,java.nio.IntBuffer,getEle
 getTypedArray_1,java.nio.IntBuffer::getTypedArray()Lcom/google/gwt/typedarrays/shared/ArrayBufferView;,java.nio.IntBuffer,getTypedArray,playn/super/java/nio/IntBuffer.java,403,0
 hashCode_8,java.nio.IntBuffer::hashCode()I,java.nio.IntBuffer,hashCode,playn/super/java/nio/IntBuffer.java,242,0
 intArray,java.nio.IntBuffer::intArray,java.nio.IntBuffer,intArray,playn/super/java/nio/IntBuffer.java,40,-1
-toString_16,java.nio.IntBuffer::toString()Ljava/lang/String;,java.nio.IntBuffer,toString,playn/super/java/nio/IntBuffer.java,391,0
+toString_17,java.nio.IntBuffer::toString()Ljava/lang/String;,java.nio.IntBuffer,toString,playn/super/java/nio/IntBuffer.java,391,0
 ShortBuffer,,java.nio.ShortBuffer,,playn/super/java/nio/ShortBuffer.java,33,-1
 $get_3,java.nio.ShortBuffer::$get(Ljava/nio/ShortBuffer;I)S,java.nio.ShortBuffer,$get,playn/super/java/nio/ShortBuffer.java,214,0
 $put_1,java.nio.ShortBuffer::$put(Ljava/nio/ShortBuffer;[SII)Ljava/nio/ShortBuffer;,java.nio.ShortBuffer,$put,playn/super/java/nio/ShortBuffer.java,306,0
@@ -919,16 +967,23 @@ getElementType_2,java.nio.ShortBuffer::getElementType()I,java.nio.ShortBuffer,ge
 getTypedArray_2,java.nio.ShortBuffer::getTypedArray()Lcom/google/gwt/typedarrays/shared/ArrayBufferView;,java.nio.ShortBuffer,getTypedArray,playn/super/java/nio/ShortBuffer.java,395,0
 hashCode_9,java.nio.ShortBuffer::hashCode()I,java.nio.ShortBuffer,hashCode,playn/super/java/nio/ShortBuffer.java,235,0
 shortArray,java.nio.ShortBuffer::shortArray,java.nio.ShortBuffer,shortArray,playn/super/java/nio/ShortBuffer.java,37,-1
-toString_17,java.nio.ShortBuffer::toString()Ljava/lang/String;,java.nio.ShortBuffer,toString,playn/super/java/nio/ShortBuffer.java,383,0
+toString_18,java.nio.ShortBuffer::toString()Ljava/lang/String;,java.nio.ShortBuffer,toString,playn/super/java/nio/ShortBuffer.java,383,0
 AbstractCollection,,java.util.AbstractCollection,,com/google/gwt/emul/java/util/AbstractCollection.java,30,-1
 $advanceToFind,java.util.AbstractCollection::$advanceToFind(Ljava/util/AbstractCollection;Ljava/lang/Object;Z)Z,java.util.AbstractCollection,$advanceToFind,com/google/gwt/emul/java/util/AbstractCollection.java,147,0
 $containsAll,java.util.AbstractCollection::$containsAll(Ljava/util/AbstractCollection;Ljava/util/Collection;)Z,java.util.AbstractCollection,$containsAll,com/google/gwt/emul/java/util/AbstractCollection.java,65,0
 add_0,java.util.AbstractCollection::add(Ljava/lang/Object;)Z,java.util.AbstractCollection,add,com/google/gwt/emul/java/util/AbstractCollection.java,36,0
 contains,java.util.AbstractCollection::contains(Ljava/lang/Object;)Z,java.util.AbstractCollection,contains,com/google/gwt/emul/java/util/AbstractCollection.java,60,0
+toArray,java.util.AbstractCollection::toArray()[Ljava/lang/Object;,java.util.AbstractCollection,toArray,com/google/gwt/emul/java/util/AbstractCollection.java,117,0
+toArray_0,java.util.AbstractCollection::toArray([Ljava/lang/Object;)[Ljava/lang/Object;,java.util.AbstractCollection,toArray,com/google/gwt/emul/java/util/AbstractCollection.java,122,0
 toString_5,java.util.AbstractCollection::toString()Ljava/lang/String;,java.util.AbstractCollection,toString,com/google/gwt/emul/java/util/AbstractCollection.java,139,0
 AbstractHashMap,,java.util.AbstractHashMap,,com/google/gwt/emul/java/util/AbstractHashMap.java,37,-1
 $containsKey,java.util.AbstractHashMap::$containsKey(Ljava/util/AbstractHashMap;Ljava/lang/Object;)Z,java.util.AbstractHashMap,$containsKey,com/google/gwt/emul/java/util/AbstractHashMap.java,174,0
+$containsValue,java.util.AbstractHashMap::$containsValue(Ljava/util/AbstractHashMap;Ljava/lang/Object;)Z,java.util.AbstractHashMap,$containsValue,com/google/gwt/emul/java/util/AbstractHashMap.java,180,0
+$containsValue_0,java.util.AbstractHashMap::$containsValue(Ljava/util/AbstractHashMap;Ljava/lang/Object;Ljava/lang/Iterable;)Z,java.util.AbstractHashMap,$containsValue,com/google/gwt/emul/java/util/AbstractHashMap.java,184,0
+$get_4,java.util.AbstractHashMap::$get(Ljava/util/AbstractHashMap;Ljava/lang/Object;)Ljava/lang/Object;,java.util.AbstractHashMap,$get,com/google/gwt/emul/java/util/AbstractHashMap.java,200,0
+$put_2,java.util.AbstractHashMap::$put(Ljava/util/AbstractHashMap;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,java.util.AbstractHashMap,$put,com/google/gwt/emul/java/util/AbstractHashMap.java,207,0
 $putStringValue,java.util.AbstractHashMap::$putStringValue(Ljava/util/AbstractHashMap;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;,java.util.AbstractHashMap,$putStringValue,com/google/gwt/emul/java/util/AbstractHashMap.java,284,0
+$reset,java.util.AbstractHashMap::$reset(Ljava/util/AbstractHashMap;)V,java.util.AbstractHashMap,$reset,com/google/gwt/emul/java/util/AbstractHashMap.java,166,0
 $size,java.util.AbstractHashMap::$size(Ljava/util/AbstractHashMap;)I,java.util.AbstractHashMap,$size,com/google/gwt/emul/java/util/AbstractHashMap.java,220,0
 containsKey_1,java.util.AbstractHashMap::containsKey(Ljava/lang/Object;)Z,java.util.AbstractHashMap,containsKey,com/google/gwt/emul/java/util/AbstractHashMap.java,174,0
 entrySet_0,java.util.AbstractHashMap::entrySet()Ljava/util/Set;,java.util.AbstractHashMap,entrySet,com/google/gwt/emul/java/util/AbstractHashMap.java,194,0
@@ -954,7 +1009,9 @@ next_0,java.util.AbstractHashMap$EntrySetIterator::next()Ljava/lang/Object;,java
 stringMapEntries,java.util.AbstractHashMap$EntrySetIterator::stringMapEntries,java.util.AbstractHashMap$EntrySetIterator,stringMapEntries,com/google/gwt/emul/java/util/AbstractHashMap.java,79,-1
 this$01,java.util.AbstractHashMap$EntrySetIterator::this$01,java.util.AbstractHashMap$EntrySetIterator,this$01,com/google/gwt/emul/java/util/AbstractHashMap.java,78,-1
 AbstractList,,java.util.AbstractList,,com/google/gwt/emul/java/util/AbstractList.java,32,-1
-add_1,java.util.AbstractList::add(Ljava/lang/Object;)Z,java.util.AbstractList,add,com/google/gwt/emul/java/util/AbstractList.java,180,0
+$indexOf_0,java.util.AbstractList::$indexOf(Ljava/util/AbstractList;Ljava/lang/Object;)I,java.util.AbstractList,$indexOf,com/google/gwt/emul/java/util/AbstractList.java,239,0
+add_1,java.util.AbstractList::add(ILjava/lang/Object;)V,java.util.AbstractList,add,com/google/gwt/emul/java/util/AbstractList.java,186,0
+add_2,java.util.AbstractList::add(Ljava/lang/Object;)Z,java.util.AbstractList,add,com/google/gwt/emul/java/util/AbstractList.java,180,0
 equals_10,java.util.AbstractList::equals(Ljava/lang/Object;)Z,java.util.AbstractList,equals,com/google/gwt/emul/java/util/AbstractList.java,208,0
 hashCode_10,java.util.AbstractList::hashCode()I,java.util.AbstractList,hashCode,com/google/gwt/emul/java/util/AbstractList.java,234,0
 iterator_2,java.util.AbstractList::iterator()Ljava/util/Iterator;,java.util.AbstractList,iterator,com/google/gwt/emul/java/util/AbstractList.java,249,0
@@ -987,6 +1044,17 @@ AbstractMap$1$1,java.util.AbstractMap$1$1::AbstractMap$1$1(Ljava/util/AbstractMa
 hasNext_2,java.util.AbstractMap$1$1::hasNext()Z,java.util.AbstractMap$1$1,hasNext,com/google/gwt/emul/java/util/AbstractMap.java,211,0
 next_2,java.util.AbstractMap$1$1::next()Ljava/lang/Object;,java.util.AbstractMap$1$1,next,com/google/gwt/emul/java/util/AbstractMap.java,216,0
 val$outerIter2,java.util.AbstractMap$1$1::val$outerIter2,java.util.AbstractMap$1$1,val$outerIter2,com/google/gwt/emul/java/util/AbstractMap.java,209,-1
+AbstractMap$2,,java.util.AbstractMap$2,,com/google/gwt/emul/java/util/AbstractMap.java,286,-1
+AbstractMap$2,java.util.AbstractMap$2::AbstractMap$2(Ljava/util/AbstractMap;) <init>,java.util.AbstractMap$2,AbstractMap$2,com/google/gwt/emul/java/util/AbstractMap.java,286,0
+contains_3,java.util.AbstractMap$2::contains(Ljava/lang/Object;)Z,java.util.AbstractMap$2,contains,com/google/gwt/emul/java/util/AbstractMap.java,293,0
+iterator_4,java.util.AbstractMap$2::iterator()Ljava/util/Iterator;,java.util.AbstractMap$2,iterator,com/google/gwt/emul/java/util/AbstractMap.java,298,0
+size_7,java.util.AbstractMap$2::size()I,java.util.AbstractMap$2,size,com/google/gwt/emul/java/util/AbstractMap.java,320,0
+this$01,java.util.AbstractMap$2::this$01,java.util.AbstractMap$2,this$01,com/google/gwt/emul/java/util/AbstractMap.java,286,-1
+AbstractMap$2$1,,java.util.AbstractMap$2$1,,com/google/gwt/emul/java/util/AbstractMap.java,300,-1
+AbstractMap$2$1,java.util.AbstractMap$2$1::AbstractMap$2$1(Ljava/util/AbstractMap$2;) <init>,java.util.AbstractMap$2$1,AbstractMap$2$1,com/google/gwt/emul/java/util/AbstractMap.java,300,0
+hasNext_3,java.util.AbstractMap$2$1::hasNext()Z,java.util.AbstractMap$2$1,hasNext,com/google/gwt/emul/java/util/AbstractMap.java,302,0
+next_3,java.util.AbstractMap$2$1::next()Ljava/lang/Object;,java.util.AbstractMap$2$1,next,com/google/gwt/emul/java/util/AbstractMap.java,307,0
+val$outerIter2,java.util.AbstractMap$2$1::val$outerIter2,java.util.AbstractMap$2$1,val$outerIter2,com/google/gwt/emul/java/util/AbstractMap.java,300,-1
 AbstractMap$AbstractEntry,,java.util.AbstractMap$AbstractEntry,,com/google/gwt/emul/java/util/AbstractMap.java,65,-1
 equals_11,java.util.AbstractMap$AbstractEntry::equals(Ljava/lang/Object;)Z,java.util.AbstractMap$AbstractEntry,equals,com/google/gwt/emul/java/util/AbstractMap.java,92,0
 getKey_0,java.util.AbstractMap$AbstractEntry::getKey()Ljava/lang/Object;,java.util.AbstractMap$AbstractEntry,getKey,com/google/gwt/emul/java/util/AbstractMap.java,75,0
@@ -994,58 +1062,73 @@ getValue_0,java.util.AbstractMap$AbstractEntry::getValue()Ljava/lang/Object;,jav
 hashCode_11,java.util.AbstractMap$AbstractEntry::hashCode()I,java.util.AbstractMap$AbstractEntry,hashCode,com/google/gwt/emul/java/util/AbstractMap.java,105,0
 key_0,java.util.AbstractMap$AbstractEntry::key,java.util.AbstractMap$AbstractEntry,key,com/google/gwt/emul/java/util/AbstractMap.java,66,-1
 setValue_0,java.util.AbstractMap$AbstractEntry::setValue(Ljava/lang/Object;)Ljava/lang/Object;,java.util.AbstractMap$AbstractEntry,setValue,com/google/gwt/emul/java/util/AbstractMap.java,85,0
-toString_18,java.util.AbstractMap$AbstractEntry::toString()Ljava/lang/String;,java.util.AbstractMap$AbstractEntry,toString,com/google/gwt/emul/java/util/AbstractMap.java,110,0
+toString_19,java.util.AbstractMap$AbstractEntry::toString()Ljava/lang/String;,java.util.AbstractMap$AbstractEntry,toString,com/google/gwt/emul/java/util/AbstractMap.java,110,0
 value_0,java.util.AbstractMap$AbstractEntry::value,java.util.AbstractMap$AbstractEntry,value,com/google/gwt/emul/java/util/AbstractMap.java,67,-1
 AbstractMap$SimpleEntry,,java.util.AbstractMap$SimpleEntry,,com/google/gwt/emul/java/util/AbstractMap.java,33,-1
 AbstractMap$SimpleEntry,java.util.AbstractMap$SimpleEntry::AbstractMap$SimpleEntry(Ljava/lang/Object;Ljava/lang/Object;) <init>,java.util.AbstractMap$SimpleEntry,AbstractMap$SimpleEntry,com/google/gwt/emul/java/util/AbstractMap.java,34,0
 AbstractMapEntry,,java.util.AbstractMapEntry,,com/google/gwt/emul/java/util/AbstractMapEntry.java,22,-1
 equals_12,java.util.AbstractMapEntry::equals(Ljava/lang/Object;)Z,java.util.AbstractMapEntry,equals,com/google/gwt/emul/java/util/AbstractMapEntry.java,25,0
 hashCode_12,java.util.AbstractMapEntry::hashCode()I,java.util.AbstractMapEntry,hashCode,com/google/gwt/emul/java/util/AbstractMapEntry.java,38,0
-toString_19,java.util.AbstractMapEntry::toString()Ljava/lang/String;,java.util.AbstractMapEntry,toString,com/google/gwt/emul/java/util/AbstractMapEntry.java,43,0
+toString_20,java.util.AbstractMapEntry::toString()Ljava/lang/String;,java.util.AbstractMapEntry,toString,com/google/gwt/emul/java/util/AbstractMapEntry.java,43,0
 AbstractSet,,java.util.AbstractSet,,com/google/gwt/emul/java/util/AbstractSet.java,27,-1
 equals_3,java.util.AbstractSet::equals(Ljava/lang/Object;)Z,java.util.AbstractSet,equals,com/google/gwt/emul/java/util/AbstractSet.java,33,0
 hashCode_4,java.util.AbstractSet::hashCode()I,java.util.AbstractSet,hashCode,com/google/gwt/emul/java/util/AbstractSet.java,50,0
 ArrayList,,java.util.ArrayList,,com/google/gwt/emul/java/util/ArrayList.java,51,-1
+$$init_1,java.util.ArrayList::$$init(Ljava/util/ArrayList;)V,java.util.ArrayList,$$init,com/google/gwt/emul/java/util/ArrayList.java,51,0
 $add_0,java.util.ArrayList::$add(Ljava/util/ArrayList;ILjava/lang/Object;)V,java.util.ArrayList,$add,com/google/gwt/emul/java/util/ArrayList.java,86,0
 $add_1,java.util.ArrayList::$add(Ljava/util/ArrayList;Ljava/lang/Object;)Z,java.util.ArrayList,$add,com/google/gwt/emul/java/util/ArrayList.java,80,0
 $addAll,java.util.ArrayList::$addAll(Ljava/util/ArrayList;Ljava/util/Collection;)Z,java.util.ArrayList,$addAll,com/google/gwt/emul/java/util/ArrayList.java,92,0
-$get_4,java.util.ArrayList::$get(Ljava/util/ArrayList;I)Ljava/lang/Object;,java.util.ArrayList,$get,com/google/gwt/emul/java/util/ArrayList.java,133,0
-$indexOf_0,java.util.ArrayList::$indexOf(Ljava/util/ArrayList;Ljava/lang/Object;I)I,java.util.ArrayList,$indexOf,com/google/gwt/emul/java/util/ArrayList.java,295,0
+$get_5,java.util.ArrayList::$get(Ljava/util/ArrayList;I)Ljava/lang/Object;,java.util.ArrayList,$get,com/google/gwt/emul/java/util/ArrayList.java,133,0
+$indexOf_1,java.util.ArrayList::$indexOf(Ljava/util/ArrayList;Ljava/lang/Object;I)I,java.util.ArrayList,$indexOf,com/google/gwt/emul/java/util/ArrayList.java,295,0
 $remove,java.util.ArrayList::$remove(Ljava/util/ArrayList;I)Ljava/lang/Object;,java.util.ArrayList,$remove,com/google/gwt/emul/java/util/ArrayList.java,190,0
+$toArray,java.util.ArrayList::$toArray(Ljava/util/ArrayList;[Ljava/lang/Object;)[Ljava/lang/Object;,java.util.ArrayList,$toArray,com/google/gwt/emul/java/util/ArrayList.java,267,0
 ArrayList,java.util.ArrayList::ArrayList() <init>,java.util.ArrayList,ArrayList,com/google/gwt/emul/java/util/ArrayList.java,66,0
-add_2,java.util.ArrayList::add(Ljava/lang/Object;)Z,java.util.ArrayList,add,com/google/gwt/emul/java/util/ArrayList.java,80,0
+ArrayList_0,java.util.ArrayList::ArrayList(Ljava/util/Collection;) <init>,java.util.ArrayList,ArrayList,com/google/gwt/emul/java/util/ArrayList.java,69,0
+add_3,java.util.ArrayList::add(ILjava/lang/Object;)V,java.util.ArrayList,add,com/google/gwt/emul/java/util/ArrayList.java,86,0
+add_4,java.util.ArrayList::add(Ljava/lang/Object;)Z,java.util.ArrayList,add,com/google/gwt/emul/java/util/ArrayList.java,80,0
 array,java.util.ArrayList::array,java.util.ArrayList,array,com/google/gwt/emul/java/util/ArrayList.java,57,-1
-contains_3,java.util.ArrayList::contains(Ljava/lang/Object;)Z,java.util.ArrayList,contains,com/google/gwt/emul/java/util/ArrayList.java,124,0
+contains_4,java.util.ArrayList::contains(Ljava/lang/Object;)Z,java.util.ArrayList,contains,com/google/gwt/emul/java/util/ArrayList.java,124,0
 get_3,java.util.ArrayList::get(I)Ljava/lang/Object;,java.util.ArrayList,get,com/google/gwt/emul/java/util/ArrayList.java,133,0
-iterator_4,java.util.ArrayList::iterator()Ljava/util/Iterator;,java.util.ArrayList,iterator,com/google/gwt/emul/java/util/ArrayList.java,144,0
-size_7,java.util.ArrayList::size()I,java.util.ArrayList,size,com/google/gwt/emul/java/util/ArrayList.java,248,0
+iterator_5,java.util.ArrayList::iterator()Ljava/util/Iterator;,java.util.ArrayList,iterator,com/google/gwt/emul/java/util/ArrayList.java,144,0
+size_8,java.util.ArrayList::size()I,java.util.ArrayList,size,com/google/gwt/emul/java/util/ArrayList.java,248,0
+toArray_1,java.util.ArrayList::toArray()[Ljava/lang/Object;,java.util.ArrayList,toArray,com/google/gwt/emul/java/util/ArrayList.java,258,0
+toArray_2,java.util.ArrayList::toArray([Ljava/lang/Object;)[Ljava/lang/Object;,java.util.ArrayList,toArray,com/google/gwt/emul/java/util/ArrayList.java,267,0
 ArrayList$1,,java.util.ArrayList$1,,com/google/gwt/emul/java/util/ArrayList.java,145,-1
 $next_1,java.util.ArrayList$1::$next(Ljava/util/ArrayList$1;)Ljava/lang/Object;,java.util.ArrayList$1,$next,com/google/gwt/emul/java/util/ArrayList.java,154,0
 ArrayList$1,java.util.ArrayList$1::ArrayList$1(Ljava/util/ArrayList;) <init>,java.util.ArrayList$1,ArrayList$1,com/google/gwt/emul/java/util/ArrayList.java,145,0
-hasNext_3,java.util.ArrayList$1::hasNext()Z,java.util.ArrayList$1,hasNext,com/google/gwt/emul/java/util/ArrayList.java,149,0
+hasNext_4,java.util.ArrayList$1::hasNext()Z,java.util.ArrayList$1,hasNext,com/google/gwt/emul/java/util/ArrayList.java,149,0
 i,java.util.ArrayList$1::i,java.util.ArrayList$1,i,com/google/gwt/emul/java/util/ArrayList.java,146,-1
 last,java.util.ArrayList$1::last,java.util.ArrayList$1,last,com/google/gwt/emul/java/util/ArrayList.java,146,-1
-next_3,java.util.ArrayList$1::next()Ljava/lang/Object;,java.util.ArrayList$1,next,com/google/gwt/emul/java/util/ArrayList.java,154,0
+next_4,java.util.ArrayList$1::next()Ljava/lang/Object;,java.util.ArrayList$1,next,com/google/gwt/emul/java/util/ArrayList.java,154,0
 this$01,java.util.ArrayList$1::this$01,java.util.ArrayList$1,this$01,com/google/gwt/emul/java/util/ArrayList.java,145,-1
 hashCode_13,java.util.Arrays::hashCode([Ljava/lang/Object;)I,java.util.Arrays,hashCode,com/google/gwt/emul/java/util/Arrays.java,1119,0
+Arrays$ArrayList,,java.util.Arrays$ArrayList,,com/google/gwt/emul/java/util/Arrays.java,53,-1
+$toArray_0,java.util.Arrays$ArrayList::$toArray(Ljava/util/Arrays$ArrayList;[Ljava/lang/Object;)[Ljava/lang/Object;,java.util.Arrays$ArrayList,$toArray,com/google/gwt/emul/java/util/Arrays.java,121,0
+Arrays$ArrayList,java.util.Arrays$ArrayList::Arrays$ArrayList([Ljava/lang/Object;) <init>,java.util.Arrays$ArrayList,Arrays$ArrayList,com/google/gwt/emul/java/util/Arrays.java,62,0
+array,java.util.Arrays$ArrayList::array,java.util.Arrays$ArrayList,array,com/google/gwt/emul/java/util/Arrays.java,60,-1
+contains_5,java.util.Arrays$ArrayList::contains(Ljava/lang/Object;)Z,java.util.Arrays$ArrayList,contains,com/google/gwt/emul/java/util/Arrays.java,68,0
+get_4,java.util.Arrays$ArrayList::get(I)Ljava/lang/Object;,java.util.Arrays$ArrayList,get,com/google/gwt/emul/java/util/Arrays.java,81,0
+size_9,java.util.Arrays$ArrayList::size()I,java.util.Arrays$ArrayList,size,com/google/gwt/emul/java/util/Arrays.java,102,0
+toArray_3,java.util.Arrays$ArrayList::toArray()[Ljava/lang/Object;,java.util.Arrays$ArrayList,toArray,com/google/gwt/emul/java/util/Arrays.java,112,0
+toArray_4,java.util.Arrays$ArrayList::toArray([Ljava/lang/Object;)[Ljava/lang/Object;,java.util.Arrays$ArrayList,toArray,com/google/gwt/emul/java/util/Arrays.java,121,0
 hashCode_14,java.util.Collections::hashCode(Ljava/lang/Iterable;)I,java.util.Collections,hashCode,com/google/gwt/emul/java/util/Collections.java,1302,0
 hashCode_15,java.util.Collections::hashCode(Ljava/util/List;)I,java.util.Collections,hashCode,com/google/gwt/emul/java/util/Collections.java,1314,0
 unmodifiableList,java.util.Collections::unmodifiableList(Ljava/util/List;)Ljava/util/List;,java.util.Collections,unmodifiableList,com/google/gwt/emul/java/util/Collections.java,1275,0
 Collections$UnmodifiableCollection,,java.util.Collections$UnmodifiableCollection,,com/google/gwt/emul/java/util/Collections.java,296,-1
-add_3,java.util.Collections$UnmodifiableCollection::add(Ljava/lang/Object;)Z,java.util.Collections$UnmodifiableCollection,add,com/google/gwt/emul/java/util/Collections.java,304,0
+add_5,java.util.Collections$UnmodifiableCollection::add(Ljava/lang/Object;)Z,java.util.Collections$UnmodifiableCollection,add,com/google/gwt/emul/java/util/Collections.java,304,0
 coll,java.util.Collections$UnmodifiableCollection::coll,java.util.Collections$UnmodifiableCollection,coll,com/google/gwt/emul/java/util/Collections.java,297,-1
-iterator_5,java.util.Collections$UnmodifiableCollection::iterator()Ljava/util/Iterator;,java.util.Collections$UnmodifiableCollection,iterator,com/google/gwt/emul/java/util/Collections.java,334,0
-size_8,java.util.Collections$UnmodifiableCollection::size()I,java.util.Collections$UnmodifiableCollection,size,com/google/gwt/emul/java/util/Collections.java,354,0
-toString_20,java.util.Collections$UnmodifiableCollection::toString()Ljava/lang/String;,java.util.Collections$UnmodifiableCollection,toString,com/google/gwt/emul/java/util/Collections.java,369,0
+iterator_6,java.util.Collections$UnmodifiableCollection::iterator()Ljava/util/Iterator;,java.util.Collections$UnmodifiableCollection,iterator,com/google/gwt/emul/java/util/Collections.java,334,0
+size_10,java.util.Collections$UnmodifiableCollection::size()I,java.util.Collections$UnmodifiableCollection,size,com/google/gwt/emul/java/util/Collections.java,354,0
+toString_21,java.util.Collections$UnmodifiableCollection::toString()Ljava/lang/String;,java.util.Collections$UnmodifiableCollection,toString,com/google/gwt/emul/java/util/Collections.java,369,0
 Collections$UnmodifiableCollectionIterator,,java.util.Collections$UnmodifiableCollectionIterator,,com/google/gwt/emul/java/util/Collections.java,780,-1
 Collections$UnmodifiableCollectionIterator,java.util.Collections$UnmodifiableCollectionIterator::Collections$UnmodifiableCollectionIterator(Ljava/util/Iterator;) <init>,java.util.Collections$UnmodifiableCollectionIterator,Collections$UnmodifiableCollectionIterator,com/google/gwt/emul/java/util/Collections.java,783,0
-hasNext_4,java.util.Collections$UnmodifiableCollectionIterator::hasNext()Z,java.util.Collections$UnmodifiableCollectionIterator,hasNext,com/google/gwt/emul/java/util/Collections.java,788,0
+hasNext_5,java.util.Collections$UnmodifiableCollectionIterator::hasNext()Z,java.util.Collections$UnmodifiableCollectionIterator,hasNext,com/google/gwt/emul/java/util/Collections.java,788,0
 it,java.util.Collections$UnmodifiableCollectionIterator::it,java.util.Collections$UnmodifiableCollectionIterator,it,com/google/gwt/emul/java/util/Collections.java,781,-1
-next_4,java.util.Collections$UnmodifiableCollectionIterator::next()Ljava/lang/Object;,java.util.Collections$UnmodifiableCollectionIterator,next,com/google/gwt/emul/java/util/Collections.java,793,0
+next_5,java.util.Collections$UnmodifiableCollectionIterator::next()Ljava/lang/Object;,java.util.Collections$UnmodifiableCollectionIterator,next,com/google/gwt/emul/java/util/Collections.java,793,0
 Collections$UnmodifiableList,,java.util.Collections$UnmodifiableList,,com/google/gwt/emul/java/util/Collections.java,374,-1
 Collections$UnmodifiableList,java.util.Collections$UnmodifiableList::Collections$UnmodifiableList(Ljava/util/List;) <init>,java.util.Collections$UnmodifiableList,Collections$UnmodifiableList,com/google/gwt/emul/java/util/Collections.java,378,0
 equals_13,java.util.Collections$UnmodifiableList::equals(Ljava/lang/Object;)Z,java.util.Collections$UnmodifiableList,equals,com/google/gwt/emul/java/util/Collections.java,394,0
-get_4,java.util.Collections$UnmodifiableList::get(I)Ljava/lang/Object;,java.util.Collections$UnmodifiableList,get,com/google/gwt/emul/java/util/Collections.java,399,0
+get_5,java.util.Collections$UnmodifiableList::get(I)Ljava/lang/Object;,java.util.Collections$UnmodifiableList,get,com/google/gwt/emul/java/util/Collections.java,399,0
 hashCode_16,java.util.Collections$UnmodifiableList::hashCode()I,java.util.Collections$UnmodifiableList,hashCode,com/google/gwt/emul/java/util/Collections.java,404,0
 list,java.util.Collections$UnmodifiableList::list,java.util.Collections$UnmodifiableList,list,com/google/gwt/emul/java/util/Collections.java,376,-1
 Collections$UnmodifiableMap,,java.util.Collections$UnmodifiableMap,,com/google/gwt/emul/java/util/Collections.java,449,-1
@@ -1053,19 +1136,19 @@ Collections$UnmodifiableMap,java.util.Collections$UnmodifiableMap::Collections$U
 entrySet,java.util.Collections$UnmodifiableMap::entrySet,java.util.Collections$UnmodifiableMap,entrySet,com/google/gwt/emul/java/util/Collections.java,559,-1
 entrySet_1,java.util.Collections$UnmodifiableMap::entrySet()Ljava/util/Set;,java.util.Collections$UnmodifiableMap,entrySet,com/google/gwt/emul/java/util/Collections.java,584,0
 equals_14,java.util.Collections$UnmodifiableMap::equals(Ljava/lang/Object;)Z,java.util.Collections$UnmodifiableMap,equals,com/google/gwt/emul/java/util/Collections.java,592,0
-get_5,java.util.Collections$UnmodifiableMap::get(Ljava/lang/Object;)Ljava/lang/Object;,java.util.Collections$UnmodifiableMap,get,com/google/gwt/emul/java/util/Collections.java,597,0
+get_6,java.util.Collections$UnmodifiableMap::get(Ljava/lang/Object;)Ljava/lang/Object;,java.util.Collections$UnmodifiableMap,get,com/google/gwt/emul/java/util/Collections.java,597,0
 hashCode_17,java.util.Collections$UnmodifiableMap::hashCode()I,java.util.Collections$UnmodifiableMap,hashCode,com/google/gwt/emul/java/util/Collections.java,602,0
 map_0,java.util.Collections$UnmodifiableMap::map,java.util.Collections$UnmodifiableMap,map,com/google/gwt/emul/java/util/Collections.java,561,-1
 put_2,java.util.Collections$UnmodifiableMap::put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,java.util.Collections$UnmodifiableMap,put,com/google/gwt/emul/java/util/Collections.java,620,0
-size_9,java.util.Collections$UnmodifiableMap::size()I,java.util.Collections$UnmodifiableMap,size,com/google/gwt/emul/java/util/Collections.java,635,0
-toString_21,java.util.Collections$UnmodifiableMap::toString()Ljava/lang/String;,java.util.Collections$UnmodifiableMap,toString,com/google/gwt/emul/java/util/Collections.java,640,0
+size_11,java.util.Collections$UnmodifiableMap::size()I,java.util.Collections$UnmodifiableMap,size,com/google/gwt/emul/java/util/Collections.java,635,0
+toString_22,java.util.Collections$UnmodifiableMap::toString()Ljava/lang/String;,java.util.Collections$UnmodifiableMap,toString,com/google/gwt/emul/java/util/Collections.java,640,0
 Collections$UnmodifiableMap$UnmodifiableEntrySet,,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet,,com/google/gwt/emul/java/util/Collections.java,451,-1
 Collections$UnmodifiableMap$UnmodifiableEntrySet,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet::Collections$UnmodifiableMap$UnmodifiableEntrySet(Ljava/util/Set;) <init>,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet,Collections$UnmodifiableMap$UnmodifiableEntrySet,com/google/gwt/emul/java/util/Collections.java,493,0
-iterator_6,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet::iterator()Ljava/util/Iterator;,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet,iterator,com/google/gwt/emul/java/util/Collections.java,510,0
+iterator_7,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet::iterator()Ljava/util/Iterator;,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet,iterator,com/google/gwt/emul/java/util/Collections.java,510,0
 Collections$UnmodifiableMap$UnmodifiableEntrySet$1,,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1,,com/google/gwt/emul/java/util/Collections.java,512,-1
 Collections$UnmodifiableMap$UnmodifiableEntrySet$1,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1::Collections$UnmodifiableMap$UnmodifiableEntrySet$1(Ljava/util/Collections$UnmodifiableMap$UnmodifiableEntrySet;) <init>,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1,Collections$UnmodifiableMap$UnmodifiableEntrySet$1,com/google/gwt/emul/java/util/Collections.java,512,0
-hasNext_5,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1::hasNext()Z,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1,hasNext,com/google/gwt/emul/java/util/Collections.java,514,0
-next_5,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1::next()Ljava/lang/Object;,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1,next,com/google/gwt/emul/java/util/Collections.java,519,0
+hasNext_6,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1::hasNext()Z,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1,hasNext,com/google/gwt/emul/java/util/Collections.java,514,0
+next_6,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1::next()Ljava/lang/Object;,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1,next,com/google/gwt/emul/java/util/Collections.java,519,0
 val$it2,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1::val$it2,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$1,val$it2,com/google/gwt/emul/java/util/Collections.java,512,-1
 Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,,com/google/gwt/emul/java/util/Collections.java,454,-1
 Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry::Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry(Ljava/util/Map$Entry;) <init>,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,com/google/gwt/emul/java/util/Collections.java,457,0
@@ -1075,7 +1158,7 @@ getKey_1,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$Unmodifiable
 getValue_1,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry::getValue()Ljava/lang/Object;,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,getValue,com/google/gwt/emul/java/util/Collections.java,472,0
 hashCode_19,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry::hashCode()I,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,hashCode,com/google/gwt/emul/java/util/Collections.java,477,0
 setValue_1,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry::setValue(Ljava/lang/Object;)Ljava/lang/Object;,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,setValue,com/google/gwt/emul/java/util/Collections.java,482,0
-toString_22,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry::toString()Ljava/lang/String;,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,toString,com/google/gwt/emul/java/util/Collections.java,487,0
+toString_23,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry::toString()Ljava/lang/String;,java.util.Collections$UnmodifiableMap$UnmodifiableEntrySet$UnmodifiableEntry,toString,com/google/gwt/emul/java/util/Collections.java,487,0
 Collections$UnmodifiableRandomAccessList,,java.util.Collections$UnmodifiableRandomAccessList,,com/google/gwt/emul/java/util/Collections.java,653,-1
 Collections$UnmodifiableRandomAccessList,java.util.Collections$UnmodifiableRandomAccessList::Collections$UnmodifiableRandomAccessList(Ljava/util/List;) <init>,java.util.Collections$UnmodifiableRandomAccessList,Collections$UnmodifiableRandomAccessList,com/google/gwt/emul/java/util/Collections.java,655,0
 Collections$UnmodifiableSet,,java.util.Collections$UnmodifiableSet,,com/google/gwt/emul/java/util/Collections.java,660,-1
@@ -1089,30 +1172,31 @@ HashMap,,java.util.HashMap,,com/google/gwt/emul/java/util/HashMap.java,30,-1
 $equals_0,java.util.HashMap::$equals(Ljava/util/HashMap;Ljava/lang/Object;Ljava/lang/Object;)Z,java.util.HashMap,$equals,com/google/gwt/emul/java/util/HashMap.java,67,0
 HashMap,java.util.HashMap::HashMap() <init>,java.util.HashMap,HashMap,com/google/gwt/emul/java/util/HashMap.java,47,0
 HashSet,,java.util.HashSet,,com/google/gwt/emul/java/util/HashSet.java,27,-1
+$add_2,java.util.HashSet::$add(Ljava/util/HashSet;Ljava/lang/Object;)Z,java.util.HashSet,$add,com/google/gwt/emul/java/util/HashSet.java,67,0
 HashSet,java.util.HashSet::HashSet() <init>,java.util.HashSet,HashSet,com/google/gwt/emul/java/util/HashSet.java,39,0
-add_4,java.util.HashSet::add(Ljava/lang/Object;)Z,java.util.HashSet,add,com/google/gwt/emul/java/util/HashSet.java,67,0
-contains_4,java.util.HashSet::contains(Ljava/lang/Object;)Z,java.util.HashSet,contains,com/google/gwt/emul/java/util/HashSet.java,82,0
-iterator_7,java.util.HashSet::iterator()Ljava/util/Iterator;,java.util.HashSet,iterator,com/google/gwt/emul/java/util/HashSet.java,92,0
+add_6,java.util.HashSet::add(Ljava/lang/Object;)Z,java.util.HashSet,add,com/google/gwt/emul/java/util/HashSet.java,67,0
+contains_6,java.util.HashSet::contains(Ljava/lang/Object;)Z,java.util.HashSet,contains,com/google/gwt/emul/java/util/HashSet.java,82,0
+iterator_8,java.util.HashSet::iterator()Ljava/util/Iterator;,java.util.HashSet,iterator,com/google/gwt/emul/java/util/HashSet.java,92,0
 map_0,java.util.HashSet::map,java.util.HashSet,map,com/google/gwt/emul/java/util/HashSet.java,30,-1
-size_10,java.util.HashSet::size()I,java.util.HashSet,size,com/google/gwt/emul/java/util/HashSet.java,102,0
+size_12,java.util.HashSet::size()I,java.util.HashSet,size,com/google/gwt/emul/java/util/HashSet.java,102,0
 InternalHashCodeMap,,java.util.InternalHashCodeMap,,com/google/gwt/emul/java/util/InternalHashCodeMap.java,35,-1
 $findEntryInChain,java.util.InternalHashCodeMap::$findEntryInChain(Ljava/util/InternalHashCodeMap;Ljava/lang/Object;[Ljava/util/Map$Entry;)Ljava/util/Map$Entry;,java.util.InternalHashCodeMap,$findEntryInChain,com/google/gwt/emul/java/util/InternalHashCodeMap.java,91,0
 $getChainOrEmpty,java.util.InternalHashCodeMap::$getChainOrEmpty(Ljava/util/InternalHashCodeMap;I)[Ljava/util/Map$Entry;,java.util.InternalHashCodeMap,$getChainOrEmpty,com/google/gwt/emul/java/util/InternalHashCodeMap.java,144,0
 $getEntry,java.util.InternalHashCodeMap::$getEntry(Ljava/util/InternalHashCodeMap;Ljava/lang/Object;)Ljava/util/Map$Entry;,java.util.InternalHashCodeMap,$getEntry,com/google/gwt/emul/java/util/InternalHashCodeMap.java,87,0
-$put_2,java.util.InternalHashCodeMap::$put(Ljava/util/InternalHashCodeMap;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,java.util.InternalHashCodeMap,$put,com/google/gwt/emul/java/util/InternalHashCodeMap.java,45,0
+$put_3,java.util.InternalHashCodeMap::$put(Ljava/util/InternalHashCodeMap;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;,java.util.InternalHashCodeMap,$put,com/google/gwt/emul/java/util/InternalHashCodeMap.java,45,0
 InternalHashCodeMap,java.util.InternalHashCodeMap::InternalHashCodeMap(Ljava/util/AbstractHashMap;) <init>,java.util.InternalHashCodeMap,InternalHashCodeMap,com/google/gwt/emul/java/util/InternalHashCodeMap.java,41,0
 backingMap,java.util.InternalHashCodeMap::backingMap,java.util.InternalHashCodeMap,backingMap,com/google/gwt/emul/java/util/InternalHashCodeMap.java,37,-1
 host,java.util.InternalHashCodeMap::host,java.util.InternalHashCodeMap,host,com/google/gwt/emul/java/util/InternalHashCodeMap.java,38,-1
-iterator_8,java.util.InternalHashCodeMap::iterator()Ljava/util/Iterator;,java.util.InternalHashCodeMap,iterator,com/google/gwt/emul/java/util/InternalHashCodeMap.java,105,0
+iterator_9,java.util.InternalHashCodeMap::iterator()Ljava/util/Iterator;,java.util.InternalHashCodeMap,iterator,com/google/gwt/emul/java/util/InternalHashCodeMap.java,105,0
 size_0,java.util.InternalHashCodeMap::size,java.util.InternalHashCodeMap,size,com/google/gwt/emul/java/util/InternalHashCodeMap.java,39,-1
 InternalHashCodeMap$1,,java.util.InternalHashCodeMap$1,,com/google/gwt/emul/java/util/InternalHashCodeMap.java,106,-1
 InternalHashCodeMap$1,java.util.InternalHashCodeMap$1::InternalHashCodeMap$1(Ljava/util/InternalHashCodeMap;) <init>,java.util.InternalHashCodeMap$1,InternalHashCodeMap$1,com/google/gwt/emul/java/util/InternalHashCodeMap.java,106,0
 chain,java.util.InternalHashCodeMap$1::chain,java.util.InternalHashCodeMap$1,chain,com/google/gwt/emul/java/util/InternalHashCodeMap.java,109,-1
 chains,java.util.InternalHashCodeMap$1::chains,java.util.InternalHashCodeMap$1,chains,com/google/gwt/emul/java/util/InternalHashCodeMap.java,107,-1
-hasNext_6,java.util.InternalHashCodeMap$1::hasNext()Z,java.util.InternalHashCodeMap$1,hasNext,com/google/gwt/emul/java/util/InternalHashCodeMap.java,113,0
+hasNext_7,java.util.InternalHashCodeMap$1::hasNext()Z,java.util.InternalHashCodeMap$1,hasNext,com/google/gwt/emul/java/util/InternalHashCodeMap.java,113,0
 itemIndex,java.util.InternalHashCodeMap$1::itemIndex,java.util.InternalHashCodeMap$1,itemIndex,com/google/gwt/emul/java/util/InternalHashCodeMap.java,108,-1
 lastEntry,java.util.InternalHashCodeMap$1::lastEntry,java.util.InternalHashCodeMap$1,lastEntry,com/google/gwt/emul/java/util/InternalHashCodeMap.java,110,-1
-next_6,java.util.InternalHashCodeMap$1::next()Ljava/lang/Object;,java.util.InternalHashCodeMap$1,next,com/google/gwt/emul/java/util/InternalHashCodeMap.java,128,0
+next_7,java.util.InternalHashCodeMap$1::next()Ljava/lang/Object;,java.util.InternalHashCodeMap$1,next,com/google/gwt/emul/java/util/InternalHashCodeMap.java,128,0
 this$01,java.util.InternalHashCodeMap$1::this$01,java.util.InternalHashCodeMap$1,this$01,com/google/gwt/emul/java/util/InternalHashCodeMap.java,106,-1
 InternalJsMap,,java.util.InternalJsMap,,com/google/gwt/emul/java/util/InternalJsMap.java,25,-1
 InternalJsMap$Iterator,,java.util.InternalJsMap$Iterator,,com/google/gwt/emul/java/util/InternalJsMap.java,28,-1
@@ -1127,21 +1211,21 @@ jsMapCtor,java.util.InternalJsMapFactory::jsMapCtor,java.util.InternalJsMapFacto
 newJsMap,java.util.InternalJsMapFactory::newJsMap()Ljava/util/InternalJsMap;,java.util.InternalJsMapFactory,newJsMap,com/google/gwt/emul/java/util/InternalJsMapFactory.java,44,0
 InternalStringMap,,java.util.InternalStringMap,,com/google/gwt/emul/java/util/InternalStringMap.java,27,-1
 $contains,java.util.InternalStringMap::$contains(Ljava/util/InternalStringMap;Ljava/lang/String;)Z,java.util.InternalStringMap,$contains,com/google/gwt/emul/java/util/InternalStringMap.java,45,0
-$get_5,java.util.InternalStringMap::$get(Ljava/util/InternalStringMap;Ljava/lang/String;)Ljava/lang/Object;,java.util.InternalStringMap,$get,com/google/gwt/emul/java/util/InternalStringMap.java,49,0
-$put_3,java.util.InternalStringMap::$put(Ljava/util/InternalStringMap;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;,java.util.InternalStringMap,$put,com/google/gwt/emul/java/util/InternalStringMap.java,53,0
+$get_6,java.util.InternalStringMap::$get(Ljava/util/InternalStringMap;Ljava/lang/String;)Ljava/lang/Object;,java.util.InternalStringMap,$get,com/google/gwt/emul/java/util/InternalStringMap.java,49,0
+$put_4,java.util.InternalStringMap::$put(Ljava/util/InternalStringMap;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;,java.util.InternalStringMap,$put,com/google/gwt/emul/java/util/InternalStringMap.java,53,0
 InternalStringMap,java.util.InternalStringMap::InternalStringMap(Ljava/util/AbstractHashMap;) <init>,java.util.InternalStringMap,InternalStringMap,com/google/gwt/emul/java/util/InternalStringMap.java,41,0
 backingMap,java.util.InternalStringMap::backingMap,java.util.InternalStringMap,backingMap,com/google/gwt/emul/java/util/InternalStringMap.java,29,-1
 host,java.util.InternalStringMap::host,java.util.InternalStringMap,host,com/google/gwt/emul/java/util/InternalStringMap.java,30,-1
-iterator_9,java.util.InternalStringMap::iterator()Ljava/util/Iterator;,java.util.InternalStringMap,iterator,com/google/gwt/emul/java/util/InternalStringMap.java,84,0
+iterator_10,java.util.InternalStringMap::iterator()Ljava/util/Iterator;,java.util.InternalStringMap,iterator,com/google/gwt/emul/java/util/InternalStringMap.java,84,0
 size_0,java.util.InternalStringMap::size,java.util.InternalStringMap,size,com/google/gwt/emul/java/util/InternalStringMap.java,31,-1
 valueMod,java.util.InternalStringMap::valueMod,java.util.InternalStringMap,valueMod,com/google/gwt/emul/java/util/InternalStringMap.java,39,-1
 InternalStringMap$1,,java.util.InternalStringMap$1,,com/google/gwt/emul/java/util/InternalStringMap.java,85,-1
 InternalStringMap$1,java.util.InternalStringMap$1::InternalStringMap$1(Ljava/util/InternalStringMap;) <init>,java.util.InternalStringMap$1,InternalStringMap$1,com/google/gwt/emul/java/util/InternalStringMap.java,85,0
 current,java.util.InternalStringMap$1::current,java.util.InternalStringMap$1,current,com/google/gwt/emul/java/util/InternalStringMap.java,87,-1
 entries_0,java.util.InternalStringMap$1::entries,java.util.InternalStringMap$1,entries,com/google/gwt/emul/java/util/InternalStringMap.java,86,-1
-hasNext_7,java.util.InternalStringMap$1::hasNext()Z,java.util.InternalStringMap$1,hasNext,com/google/gwt/emul/java/util/InternalStringMap.java,91,0
+hasNext_8,java.util.InternalStringMap$1::hasNext()Z,java.util.InternalStringMap$1,hasNext,com/google/gwt/emul/java/util/InternalStringMap.java,91,0
 last,java.util.InternalStringMap$1::last,java.util.InternalStringMap$1,last,com/google/gwt/emul/java/util/InternalStringMap.java,88,-1
-next_7,java.util.InternalStringMap$1::next()Ljava/lang/Object;,java.util.InternalStringMap$1,next,com/google/gwt/emul/java/util/InternalStringMap.java,95,0
+next_8,java.util.InternalStringMap$1::next()Ljava/lang/Object;,java.util.InternalStringMap$1,next,com/google/gwt/emul/java/util/InternalStringMap.java,95,0
 this$01,java.util.InternalStringMap$1::this$01,java.util.InternalStringMap$1,this$01,com/google/gwt/emul/java/util/InternalStringMap.java,85,-1
 InternalStringMap$2,,java.util.InternalStringMap$2,,com/google/gwt/emul/java/util/InternalStringMap.java,109,-1
 $getValue,java.util.InternalStringMap$2::$getValue(Ljava/util/InternalStringMap$2;)Ljava/lang/Object;,java.util.InternalStringMap$2,$getValue,com/google/gwt/emul/java/util/InternalStringMap.java,116,0
@@ -1156,26 +1240,40 @@ NoSuchElementException,,java.util.NoSuchElementException,,com/google/gwt/emul/ja
 NoSuchElementException,java.util.NoSuchElementException::NoSuchElementException() <init>,java.util.NoSuchElementException,NoSuchElementException,com/google/gwt/emul/java/util/NoSuchElementException.java,25,0
 equals_17,java.util.Objects::equals(Ljava/lang/Object;Ljava/lang/Object;)Z,java.util.Objects,equals,com/google/gwt/emul/java/util/Objects.java,86,0
 hashCode_20,java.util.Objects::hashCode(Ljava/lang/Object;)I,java.util.Objects,hashCode,com/google/gwt/emul/java/util/Objects.java,95,0
+Random,,java.util.Random,,com/google/gwt/emul/java/util/Random.java,49,-1
+$clinit_Random,java.util.Random::$clinit()V,java.util.Random,$clinit,com/google/gwt/emul/java/util/Random.java,49,0
+$nextDouble,java.util.Random::$nextDouble(Ljava/util/Random;)D,java.util.Random,$nextDouble,com/google/gwt/emul/java/util/Random.java,175,0
+$nextInt,java.util.Random::$nextInt(Ljava/util/Random;I)I,java.util.Random,$nextInt,com/google/gwt/emul/java/util/Random.java,247,0
+$nextInternal,java.util.Random::$nextInternal(Ljava/util/Random;I)D,java.util.Random,$nextInternal,com/google/gwt/emul/java/util/Random.java,309,0
+Random,java.util.Random::Random() <init>,java.util.Random,Random,com/google/gwt/emul/java/util/Random.java,114,0
+seedhi,java.util.Random::seedhi,java.util.Random,seedhi,com/google/gwt/emul/java/util/Random.java,101,-1
+seedlo,java.util.Random::seedlo,java.util.Random,seedlo,com/google/gwt/emul/java/util/Random.java,106,-1
+twoToTheXMinus24,java.util.Random::twoToTheXMinus24,java.util.Random,twoToTheXMinus24,com/google/gwt/emul/java/util/Random.java,64,-1
+twoToTheXMinus48,java.util.Random::twoToTheXMinus48,java.util.Random,twoToTheXMinus48,com/google/gwt/emul/java/util/Random.java,65,-1
+uniqueSeed,java.util.Random::uniqueSeed,java.util.Random,uniqueSeed,com/google/gwt/emul/java/util/Random.java,71,-1
 StringJoiner,,java.util.StringJoiner,,com/google/gwt/emul/java/util/StringJoiner.java,22,-1
-$add_2,java.util.StringJoiner::$add(Ljava/util/StringJoiner;Ljava/lang/CharSequence;)Ljava/util/StringJoiner;,java.util.StringJoiner,$add,com/google/gwt/emul/java/util/StringJoiner.java,42,0
+$add_3,java.util.StringJoiner::$add(Ljava/util/StringJoiner;Ljava/lang/CharSequence;)Ljava/util/StringJoiner;,java.util.StringJoiner,$add,com/google/gwt/emul/java/util/StringJoiner.java,42,0
 StringJoiner,java.util.StringJoiner::StringJoiner(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/CharSequence;) <init>,java.util.StringJoiner,StringJoiner,com/google/gwt/emul/java/util/StringJoiner.java,35,0
 builder,java.util.StringJoiner::builder,java.util.StringJoiner,builder,com/google/gwt/emul/java/util/StringJoiner.java,28,-1
 delimiter,java.util.StringJoiner::delimiter,java.util.StringJoiner,delimiter,com/google/gwt/emul/java/util/StringJoiner.java,24,-1
 emptyValue,java.util.StringJoiner::emptyValue,java.util.StringJoiner,emptyValue,com/google/gwt/emul/java/util/StringJoiner.java,29,-1
 prefix,java.util.StringJoiner::prefix,java.util.StringJoiner,prefix,com/google/gwt/emul/java/util/StringJoiner.java,25,-1
 suffix,java.util.StringJoiner::suffix,java.util.StringJoiner,suffix,com/google/gwt/emul/java/util/StringJoiner.java,26,-1
-toString_23,java.util.StringJoiner::toString()Ljava/lang/String;,java.util.StringJoiner,toString,com/google/gwt/emul/java/util/StringJoiner.java,72,0
+toString_24,java.util.StringJoiner::toString()Ljava/lang/String;,java.util.StringJoiner,toString,com/google/gwt/emul/java/util/StringJoiner.java,72,0
 applySplice,javaemul.internal.ArrayHelper::applySplice(Ljava/lang/Object;IILjava/lang/Object;)V,javaemul.internal.ArrayHelper,applySplice,com/google/gwt/emul/javaemul/internal/ArrayHelper.java,93,0
 clone,javaemul.internal.ArrayHelper::clone([Ljava/lang/Object;II)[Ljava/lang/Object;,javaemul.internal.ArrayHelper,clone,com/google/gwt/emul/javaemul/internal/ArrayHelper.java,25,0
 copy,javaemul.internal.ArrayHelper::copy(Ljava/lang/Object;ILjava/lang/Object;IIZ)V,javaemul.internal.ArrayHelper,copy,com/google/gwt/emul/javaemul/internal/ArrayHelper.java,71,0
 insertTo,javaemul.internal.ArrayHelper::insertTo(Ljava/lang/Object;ILjava/lang/Object;)V,javaemul.internal.ArrayHelper,insertTo,com/google/gwt/emul/javaemul/internal/ArrayHelper.java,59,0
 insertTo_0,javaemul.internal.ArrayHelper::insertTo(Ljava/lang/Object;I[Ljava/lang/Object;)V,javaemul.internal.ArrayHelper,insertTo,com/google/gwt/emul/javaemul/internal/ArrayHelper.java,63,0
 removeFrom,javaemul.internal.ArrayHelper::removeFrom(Ljava/lang/Object;II)V,javaemul.internal.ArrayHelper,removeFrom,com/google/gwt/emul/javaemul/internal/ArrayHelper.java,55,0
+now_2,javaemul.internal.DateUtil::now()D,javaemul.internal.DateUtil,now,com/google/gwt/emul/javaemul/internal/DateUtil.java,26,0
+checkCriticalArgument,javaemul.internal.InternalPreconditions::checkCriticalArgument(Z)V,javaemul.internal.InternalPreconditions,checkCriticalArgument,com/google/gwt/emul/javaemul/internal/InternalPreconditions.java,280,0
 checkCriticalElement,javaemul.internal.InternalPreconditions::checkCriticalElement(Z)V,javaemul.internal.InternalPreconditions,checkCriticalElement,com/google/gwt/emul/javaemul/internal/InternalPreconditions.java,226,0
 checkCriticalElementIndex,javaemul.internal.InternalPreconditions::checkCriticalElementIndex(II)V,javaemul.internal.InternalPreconditions,checkCriticalElementIndex,com/google/gwt/emul/javaemul/internal/InternalPreconditions.java,482,0
 checkCriticalNotNull,javaemul.internal.InternalPreconditions::checkCriticalNotNull(Ljava/lang/Object;)Ljava/lang/Object;,javaemul.internal.InternalPreconditions,checkCriticalNotNull,com/google/gwt/emul/javaemul/internal/InternalPreconditions.java,417,0
 checkCriticalNotNull_0,javaemul.internal.InternalPreconditions::checkCriticalNotNull(Ljava/lang/Object;Ljava/lang/Object;)V,javaemul.internal.InternalPreconditions,checkCriticalNotNull,com/google/gwt/emul/javaemul/internal/InternalPreconditions.java,439,0
 checkCriticalPositionIndex,javaemul.internal.InternalPreconditions::checkCriticalPositionIndex(II)V,javaemul.internal.InternalPreconditions,checkCriticalPositionIndex,com/google/gwt/emul/javaemul/internal/InternalPreconditions.java,504,0
+checkCriticalState,javaemul.internal.InternalPreconditions::checkCriticalState(Z)V,javaemul.internal.InternalPreconditions,checkCriticalState,com/google/gwt/emul/javaemul/internal/InternalPreconditions.java,368,0
 checkCriticalStringBounds,javaemul.internal.InternalPreconditions::checkCriticalStringBounds(III)V,javaemul.internal.InternalPreconditions,checkCriticalStringBounds,com/google/gwt/emul/javaemul/internal/InternalPreconditions.java,563,0
 checkNotNull,javaemul.internal.InternalPreconditions::checkNotNull(Ljava/lang/Object;)Ljava/lang/Object;,javaemul.internal.InternalPreconditions,checkNotNull,com/google/gwt/emul/javaemul/internal/InternalPreconditions.java,403,0
 setPropertySafe,javaemul.internal.JsUtils::setPropertySafe(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V,javaemul.internal.JsUtils,setPropertySafe,com/google/gwt/emul/javaemul/internal/JsUtils.java,59,0
@@ -1210,7 +1308,7 @@ flags,playn.core.Event$Input::flags,playn.core.Event$Input,flags,playn/core/Even
 modifierFlags,playn.core.Event$Input::modifierFlags(ZZZZ)I,playn.core.Event$Input,modifierFlags,playn/core/Event.java,77,0
 name_2,playn.core.Event$Input::name()Ljava/lang/String;,playn.core.Event$Input,name,playn/core/Event.java,91,0
 time,playn.core.Event$Input::time,playn.core.Event$Input,time,playn/core/Event.java,38,-1
-toString_24,playn.core.Event$Input::toString()Ljava/lang/String;,playn.core.Event$Input,toString,playn/core/Event.java,70,0
+toString_25,playn.core.Event$Input::toString()Ljava/lang/String;,playn.core.Event$Input,toString,playn/core/Event.java,70,0
 Event$XY,,playn.core.Event$XY,,playn/core/Event.java,101,-1
 Event$XY,playn.core.Event$XY::Event$XY(IDFF) <init>,playn.core.Event$XY,Event$XY,playn/core/Event.java,116,0
 addFields_0,playn.core.Event$XY::addFields(Ljava/lang/StringBuilder;)V,playn.core.Event$XY,addFields,playn/core/Event.java,126,0
@@ -1369,7 +1467,7 @@ D,playn.core.Key::D,playn.core.Key,D,playn/core/Key.java,24,-1
 DELETE,playn.core.Key::DELETE,playn.core.Key,DELETE,playn/core/Key.java,50,-1
 DOLLAR,playn.core.Key::DOLLAR,playn.core.Key,DOLLAR,playn/core/Key.java,38,-1
 DOUBLE_QUOTE,playn.core.Key::DOUBLE_QUOTE,playn.core.Key,DOUBLE_QUOTE,playn/core/Key.java,39,-1
-DOWN,playn.core.Key::DOWN,playn.core.Key,DOWN,playn/core/Key.java,47,-1
+DOWN_0,playn.core.Key::DOWN,playn.core.Key,DOWN,playn/core/Key.java,47,-1
 DPAD_CENTER,playn.core.Key::DPAD_CENTER,playn.core.Key,DPAD_CENTER,playn/core/Key.java,66,-1
 DPAD_DOWN,playn.core.Key::DPAD_DOWN,playn.core.Key,DPAD_DOWN,playn/core/Key.java,66,-1
 DPAD_LEFT,playn.core.Key::DPAD_LEFT,playn.core.Key,DPAD_LEFT,playn/core/Key.java,66,-1
@@ -1426,7 +1524,7 @@ K8,playn.core.Key::K8,playn.core.Key,K8,playn/core/Key.java,27,-1
 K9,playn.core.Key::K9,playn.core.Key,K9,playn/core/Key.java,27,-1
 Key,playn.core.Key::Key(Ljava/lang/String;I) <init>,playn.core.Key,Key,playn/core/Key.java,21,0
 L,playn.core.Key::L,playn.core.Key,L,playn/core/Key.java,24,-1
-LEFT,playn.core.Key::LEFT,playn.core.Key,LEFT,playn/core/Key.java,47,-1
+LEFT_0,playn.core.Key::LEFT,playn.core.Key,LEFT,playn/core/Key.java,47,-1
 LEFT_BRACE,playn.core.Key::LEFT_BRACE,playn.core.Key,LEFT_BRACE,playn/core/Key.java,39,-1
 LEFT_BRACKET,playn.core.Key::LEFT_BRACKET,playn.core.Key,LEFT_BRACKET,playn/core/Key.java,39,-1
 LEFT_PAREN,playn.core.Key::LEFT_PAREN,playn.core.Key,LEFT_PAREN,playn/core/Key.java,39,-1
@@ -1488,7 +1586,7 @@ QUESTION_MARK,playn.core.Key::QUESTION_MARK,playn.core.Key,QUESTION_MARK,playn/c
 QUOTE,playn.core.Key::QUOTE,playn.core.Key,QUOTE,playn/core/Key.java,40,-1
 R,playn.core.Key::R,playn.core.Key,R,playn/core/Key.java,24,-1
 RED,playn.core.Key::RED,playn.core.Key,RED,playn/core/Key.java,58,-1
-RIGHT,playn.core.Key::RIGHT,playn.core.Key,RIGHT,playn/core/Key.java,47,-1
+RIGHT_0,playn.core.Key::RIGHT,playn.core.Key,RIGHT,playn/core/Key.java,47,-1
 RIGHT_BRACE,playn.core.Key::RIGHT_BRACE,playn.core.Key,RIGHT_BRACE,playn/core/Key.java,40,-1
 RIGHT_BRACKET,playn.core.Key::RIGHT_BRACKET,playn.core.Key,RIGHT_BRACKET,playn/core/Key.java,40,-1
 RIGHT_PAREN,playn.core.Key::RIGHT_PAREN,playn.core.Key,RIGHT_PAREN,playn/core/Key.java,40,-1
@@ -1517,7 +1615,7 @@ TV_POWER,playn.core.Key::TV_POWER,playn.core.Key,TV_POWER,playn/core/Key.java,69
 U,playn.core.Key::U,playn.core.Key,U,playn/core/Key.java,24,-1
 UNDERSCORE,playn.core.Key::UNDERSCORE,playn.core.Key,UNDERSCORE,playn/core/Key.java,41,-1
 UNKNOWN,playn.core.Key::UNKNOWN,playn.core.Key,UNKNOWN,playn/core/Key.java,73,-1
-UP,playn.core.Key::UP,playn.core.Key,UP,playn/core/Key.java,47,-1
+UP_0,playn.core.Key::UP,playn.core.Key,UP,playn/core/Key.java,47,-1
 V,playn.core.Key::V,playn.core.Key,V,playn/core/Key.java,24,-1
 VERTICAL_BAR,playn.core.Key::VERTICAL_BAR,playn.core.Key,VERTICAL_BAR,playn/core/Key.java,41,-1
 VOLUME_DOWN,playn.core.Key::VOLUME_DOWN,playn.core.Key,VOLUME_DOWN,playn/core/Key.java,69,-1
@@ -1532,7 +1630,7 @@ YELLOW,playn.core.Key::YELLOW,playn.core.Key,YELLOW,playn/core/Key.java,58,-1
 Z,playn.core.Key::Z,playn.core.Key,Z,playn/core/Key.java,24,-1
 ZOOM_IN,playn.core.Key::ZOOM_IN,playn.core.Key,ZOOM_IN,playn/core/Key.java,70,-1
 ZOOM_OUT,playn.core.Key::ZOOM_OUT,playn.core.Key,ZOOM_OUT,playn/core/Key.java,70,-1
-values_6,playn.core.Key::values()[Lplayn/core/Key;,playn.core.Key,values,playn/core/Key.java,21,0
+values_7,playn.core.Key::values()[Lplayn/core/Key;,playn.core.Key,values,playn/core/Key.java,21,0
 Keyboard$Event,,playn.core.Keyboard$Event,,playn/core/Keyboard.java,38,-1
 Keyboard$Event,playn.core.Keyboard$Event::Keyboard$Event(ID) <init>,playn.core.Keyboard$Event,Keyboard$Event,playn/core/Keyboard.java,39,0
 Keyboard$KeyEvent,,playn.core.Keyboard$KeyEvent,,playn/core/Keyboard.java,45,-1
@@ -1563,7 +1661,7 @@ ERROR,playn.core.Log$Level::ERROR,playn.core.Log$Level,ERROR,playn/core/Log.java
 INFO_0,playn.core.Log$Level::INFO,playn.core.Log$Level,INFO,playn/core/Log.java,27,-1
 Log$Level,playn.core.Log$Level::Log$Level(Ljava/lang/String;I) <init>,playn.core.Log$Level,Log$Level,playn/core/Log.java,27,0
 WARN,playn.core.Log$Level::WARN,playn.core.Log$Level,WARN,playn/core/Log.java,27,-1
-values_7,playn.core.Log$Level::values()[Lplayn/core/Log$Level;,playn.core.Log$Level,values,playn/core/Log.java,27,0
+values_8,playn.core.Log$Level::values()[Lplayn/core/Log$Level;,playn.core.Log$Level,values,playn/core/Log.java,27,0
 Mouse$ButtonEvent,,playn.core.Mouse$ButtonEvent,,playn/core/Mouse.java,34,-1
 Mouse$ButtonEvent,playn.core.Mouse$ButtonEvent::Mouse$ButtonEvent(IDFFLplayn/core/Mouse$ButtonEvent$Id;Z) <init>,playn.core.Mouse$ButtonEvent,Mouse$ButtonEvent,playn/core/Mouse.java,45,0
 addFields_3,playn.core.Mouse$ButtonEvent::addFields(Ljava/lang/StringBuilder;)V,playn.core.Mouse$ButtonEvent,addFields,playn/core/Mouse.java,55,0
@@ -1572,13 +1670,13 @@ down,playn.core.Mouse$ButtonEvent::down,playn.core.Mouse$ButtonEvent,down,playn/
 name_6,playn.core.Mouse$ButtonEvent::name()Ljava/lang/String;,playn.core.Mouse$ButtonEvent,name,playn/core/Mouse.java,51,0
 Mouse$ButtonEvent$Id,,playn.core.Mouse$ButtonEvent$Id,,playn/core/Mouse.java,37,-1
 $clinit_Mouse$ButtonEvent$Id,playn.core.Mouse$ButtonEvent$Id::$clinit()V,playn.core.Mouse$ButtonEvent$Id,$clinit,playn/core/Mouse.java,37,0
-LEFT_0,playn.core.Mouse$ButtonEvent$Id::LEFT,playn.core.Mouse$ButtonEvent$Id,LEFT,playn/core/Mouse.java,37,-1
+LEFT_1,playn.core.Mouse$ButtonEvent$Id::LEFT,playn.core.Mouse$ButtonEvent$Id,LEFT,playn/core/Mouse.java,37,-1
 MIDDLE,playn.core.Mouse$ButtonEvent$Id::MIDDLE,playn.core.Mouse$ButtonEvent$Id,MIDDLE,playn/core/Mouse.java,37,-1
 Mouse$ButtonEvent$Id,playn.core.Mouse$ButtonEvent$Id::Mouse$ButtonEvent$Id(Ljava/lang/String;I) <init>,playn.core.Mouse$ButtonEvent$Id,Mouse$ButtonEvent$Id,playn/core/Mouse.java,37,0
-RIGHT_0,playn.core.Mouse$ButtonEvent$Id::RIGHT,playn.core.Mouse$ButtonEvent$Id,RIGHT,playn/core/Mouse.java,37,-1
+RIGHT_1,playn.core.Mouse$ButtonEvent$Id::RIGHT,playn.core.Mouse$ButtonEvent$Id,RIGHT,playn/core/Mouse.java,37,-1
 X1,playn.core.Mouse$ButtonEvent$Id::X1,playn.core.Mouse$ButtonEvent$Id,X1,playn/core/Mouse.java,37,-1
 X2,playn.core.Mouse$ButtonEvent$Id::X2,playn.core.Mouse$ButtonEvent$Id,X2,playn/core/Mouse.java,37,-1
-values_8,playn.core.Mouse$ButtonEvent$Id::values()[Lplayn/core/Mouse$ButtonEvent$Id;,playn.core.Mouse$ButtonEvent$Id,values,playn/core/Mouse.java,37,0
+values_9,playn.core.Mouse$ButtonEvent$Id::values()[Lplayn/core/Mouse$ButtonEvent$Id;,playn.core.Mouse$ButtonEvent$Id,values,playn/core/Mouse.java,37,0
 Mouse$Event,,playn.core.Mouse$Event,,playn/core/Mouse.java,26,-1
 Mouse$Event,playn.core.Mouse$Event::Mouse$Event(IDFF) <init>,playn.core.Mouse$Event,Mouse$Event,playn/core/Mouse.java,28,0
 Mouse$MotionEvent,,playn.core.Mouse$MotionEvent,,playn/core/Mouse.java,62,-1
@@ -1607,21 +1705,21 @@ EXIT,playn.core.Platform$Lifecycle::EXIT,playn.core.Platform$Lifecycle,EXIT,play
 PAUSE_0,playn.core.Platform$Lifecycle::PAUSE,playn.core.Platform$Lifecycle,PAUSE,playn/core/Platform.java,26,-1
 Platform$Lifecycle,playn.core.Platform$Lifecycle::Platform$Lifecycle(Ljava/lang/String;I) <init>,playn.core.Platform$Lifecycle,Platform$Lifecycle,playn/core/Platform.java,26,0
 RESUME,playn.core.Platform$Lifecycle::RESUME,playn.core.Platform$Lifecycle,RESUME,playn/core/Platform.java,26,-1
-values_9,playn.core.Platform$Lifecycle::values()[Lplayn/core/Platform$Lifecycle;,playn.core.Platform$Lifecycle,values,playn/core/Platform.java,26,0
+values_10,playn.core.Platform$Lifecycle::values()[Lplayn/core/Platform$Lifecycle;,playn.core.Platform$Lifecycle,values,playn/core/Platform.java,26,0
 QuadBatch,,playn.core.QuadBatch,,playn/core/QuadBatch.java,22,-1
 $addQuad,playn.core.QuadBatch::$addQuad(Lplayn/core/QuadBatch;IFFFFFFFFFFFFFF)V,playn.core.QuadBatch,$addQuad,playn/core/QuadBatch.java,60,0
 $addQuad_0,playn.core.QuadBatch::$addQuad(Lplayn/core/QuadBatch;Lplayn/core/Texture;ILpythagoras/f/AffineTransform;FFFF)V,playn.core.QuadBatch,$addQuad,playn/core/QuadBatch.java,26,0
 RenderTarget,,playn.core.RenderTarget,,playn/core/RenderTarget.java,24,-1
 $bind,playn.core.RenderTarget::$bind(Lplayn/core/RenderTarget;)V,playn.core.RenderTarget,$bind,playn/core/RenderTarget.java,70,0
 gfx,playn.core.RenderTarget::gfx,playn.core.RenderTarget,gfx,playn/core/RenderTarget.java,45,-1
-toString_25,playn.core.RenderTarget::toString()Ljava/lang/String;,playn.core.RenderTarget,toString,playn/core/RenderTarget.java,83,0
+toString_26,playn.core.RenderTarget::toString()Ljava/lang/String;,playn.core.RenderTarget,toString,playn/core/RenderTarget.java,83,0
 Scale,,playn.core.Scale,,playn/core/Scale.java,26,-1
 $clinit_Scale,playn.core.Scale::$clinit()V,playn.core.Scale,$clinit,playn/core/Scale.java,26,0
 $invScaled,playn.core.Scale::$invScaled(Lplayn/core/Scale;F)F,playn.core.Scale,$invScaled,playn/core/Scale.java,84,0
 ONE,playn.core.Scale::ONE,playn.core.Scale,ONE,playn/core/Scale.java,58,-1
 Scale,playn.core.Scale::Scale(F) <init>,playn.core.Scale,Scale,playn/core/Scale.java,63,0
 factor,playn.core.Scale::factor,playn.core.Scale,factor,playn/core/Scale.java,61,-1
-toString_26,playn.core.Scale::toString()Ljava/lang/String;,playn.core.Scale,toString,playn/core/Scale.java,117,0
+toString_27,playn.core.Scale::toString()Ljava/lang/String;,playn.core.Scale,toString,playn/core/Scale.java,117,0
 Surface,,playn.core.Surface,,playn/core/Surface.java,39,-1
 $begin_0,playn.core.Surface::$begin(Lplayn/core/Surface;)Lplayn/core/Surface;,playn.core.Surface,$begin,playn/core/Surface.java,80,0
 $beginBatch,playn.core.Surface::$beginBatch(Lplayn/core/Surface;Lplayn/core/QuadBatch;)Lplayn/core/QuadBatch;,playn.core.Surface,$beginBatch,playn/core/Surface.java,398,0
@@ -1647,7 +1745,7 @@ target,playn.core.Surface::target,playn.core.Surface,target,playn/core/Surface.j
 tint,playn.core.Surface::tint,playn.core.Surface,tint,playn/core/Surface.java,50,-1
 transformStack,playn.core.Surface::transformStack,playn.core.Surface,transformStack,playn/core/Surface.java,41,-1
 Texture,,playn.core.Texture,,playn/core/Texture.java,31,-1
-$update_1,playn.core.Texture::$update(Lplayn/core/Texture;Lplayn/core/Image;)V,playn.core.Texture,$update,playn/core/Texture.java,153,0
+$update_2,playn.core.Texture::$update(Lplayn/core/Texture;Lplayn/core/Image;)V,playn.core.Texture,$update,playn/core/Texture.java,153,0
 Texture,playn.core.Texture::Texture(Lplayn/core/Graphics;ILplayn/core/Texture$Config;IILplayn/core/Scale;FF) <init>,playn.core.Texture,Texture,playn/core/Texture.java,124,0
 config,playn.core.Texture::config,playn.core.Texture,config,playn/core/Texture.java,105,-1
 displayHeight,playn.core.Texture::displayHeight,playn.core.Texture,displayHeight,playn/core/Texture.java,117,-1
@@ -1658,7 +1756,7 @@ nextPOT,playn.core.Texture::nextPOT(I)I,playn.core.Texture,nextPOT,playn/core/Te
 pixelHeight,playn.core.Texture::pixelHeight,playn.core.Texture,pixelHeight,playn/core/Texture.java,110,-1
 pixelWidth,playn.core.Texture::pixelWidth,playn.core.Texture,pixelWidth,playn/core/Texture.java,108,-1
 scale_0,playn.core.Texture::scale,playn.core.Texture,scale,playn/core/Texture.java,113,-1
-toString_28,playn.core.Texture::toString()Ljava/lang/String;,playn.core.Texture,toString,playn/core/Texture.java,247,0
+toString_29,playn.core.Texture::toString()Ljava/lang/String;,playn.core.Texture,toString,playn/core/Texture.java,247,0
 Texture$Config,,playn.core.Texture$Config,,playn/core/Texture.java,34,-1
 $clinit_Texture$Config,playn.core.Texture$Config::$clinit()V,playn.core.Texture$Config,$clinit,playn/core/Texture.java,34,0
 $toTexHeight,playn.core.Texture$Config::$toTexHeight(Lplayn/core/Texture$Config;I)I,playn.core.Texture$Config,$toTexHeight,playn/core/Texture.java,76,0
@@ -1671,14 +1769,14 @@ minFilter,playn.core.Texture$Config::minFilter,playn.core.Texture$Config,minFilt
 mipmaps,playn.core.Texture$Config::mipmaps,playn.core.Texture$Config,mipmaps,playn/core/Texture.java,54,-1
 repeatX,playn.core.Texture$Config::repeatX,playn.core.Texture$Config,repeatX,playn/core/Texture.java,48,-1
 repeatY,playn.core.Texture$Config::repeatY,playn.core.Texture$Config,repeatY,playn/core/Texture.java,48,-1
-toString_29,playn.core.Texture$Config::toString()Ljava/lang/String;,playn.core.Texture$Config,toString,playn/core/Texture.java,80,0
+toString_30,playn.core.Texture$Config::toString()Ljava/lang/String;,playn.core.Texture$Config,toString,playn/core/Texture.java,80,0
 TexturedBatch,,playn.core.TexturedBatch,,playn/core/TexturedBatch.java,19,-1
 curTexId,playn.core.TexturedBatch::curTexId,playn.core.TexturedBatch,curTexId,playn/core/TexturedBatch.java,69,-1
 end_0,playn.core.TexturedBatch::end()V,playn.core.TexturedBatch,end,playn/core/TexturedBatch.java,80,0
 gl,playn.core.TexturedBatch::gl,playn.core.TexturedBatch,gl,playn/core/TexturedBatch.java,68,-1
 $fragment,playn.core.TexturedBatch$Source::$fragment(Lplayn/core/TexturedBatch$Source;)Ljava/lang/String;,playn.core.TexturedBatch$Source,$fragment,playn/core/TexturedBatch.java,27,0
 Tile,,playn.core.Tile,,playn/core/Tile.java,25,-1
-toString_27,playn.core.Tile::toString()Ljava/lang/String;,playn.core.Tile,toString,playn/core/Tile.java,56,0
+toString_28,playn.core.Tile::toString()Ljava/lang/String;,playn.core.Tile,toString,playn/core/Tile.java,56,0
 TileSource,,playn.core.TileSource,,playn/core/TileSource.java,24,-1
 combine,playn.core.Tint::combine(II)I,playn.core.Tint,combine,playn/core/Tint.java,29,0
 Touch$Event,,playn.core.Touch$Event,,playn/core/Touch.java,24,-1
@@ -1696,7 +1794,7 @@ END_0,playn.core.Touch$Event$Kind::END,playn.core.Touch$Event$Kind,END,playn/cor
 MOVE,playn.core.Touch$Event$Kind::MOVE,playn.core.Touch$Event$Kind,MOVE,playn/core/Touch.java,28,-1
 START,playn.core.Touch$Event$Kind::START,playn.core.Touch$Event$Kind,START,playn/core/Touch.java,28,-1
 Touch$Event$Kind,playn.core.Touch$Event$Kind::Touch$Event$Kind(Ljava/lang/String;IZZ) <init>,playn.core.Touch$Event$Kind,Touch$Event$Kind,playn/core/Touch.java,34,0
-values_10,playn.core.Touch$Event$Kind::values()[Lplayn/core/Touch$Event$Kind;,playn.core.Touch$Event$Kind,values,playn/core/Touch.java,27,0
+values_11,playn.core.Touch$Event$Kind::values()[Lplayn/core/Touch$Event$Kind;,playn.core.Touch$Event$Kind,values,playn/core/Touch.java,27,0
 TriangleBatch,,playn.core.TriangleBatch,,playn/core/TriangleBatch.java,23,-1
 $addElems,playn.core.TriangleBatch::$addElems(Lplayn/core/TriangleBatch;I[IIII)V,playn.core.TriangleBatch,$addElems,playn/core/TriangleBatch.java,374,0
 $beginPrimitive,playn.core.TriangleBatch::$beginPrimitive(Lplayn/core/TriangleBatch;II)I,playn.core.TriangleBatch,$beginPrimitive,playn/core/TriangleBatch.java,355,0
@@ -1713,7 +1811,7 @@ aMatrix,playn.core.TriangleBatch::aMatrix,playn.core.TriangleBatch,aMatrix,playn
 aPosition,playn.core.TriangleBatch::aPosition,playn.core.TriangleBatch,aPosition,playn/core/TriangleBatch.java,104,-1
 aTexCoord,playn.core.TriangleBatch::aTexCoord,playn.core.TriangleBatch,aTexCoord,playn/core/TriangleBatch.java,104,-1
 aTranslation,playn.core.TriangleBatch::aTranslation,playn.core.TriangleBatch,aTranslation,playn/core/TriangleBatch.java,103,-1
-add_5,playn.core.TriangleBatch::add([FIFFFF)I,playn.core.TriangleBatch,add,playn/core/TriangleBatch.java,406,0
+add_7,playn.core.TriangleBatch::add([FIFFFF)I,playn.core.TriangleBatch,add,playn/core/TriangleBatch.java,406,0
 addQuad,playn.core.TriangleBatch::addQuad(IFFFFFFFFFFFFFFFFFFFFFF)V,playn.core.TriangleBatch,addQuad,playn/core/TriangleBatch.java,251,0
 begin_0,playn.core.TriangleBatch::begin(FFZ)V,playn.core.TriangleBatch,begin,playn/core/TriangleBatch.java,270,0
 delayedBinding,playn.core.TriangleBatch::delayedBinding,playn.core.TriangleBatch,delayedBinding,playn/core/TriangleBatch.java,97,-1
@@ -1724,7 +1822,7 @@ end_1,playn.core.TriangleBatch::end()V,playn.core.TriangleBatch,end,playn/core/T
 flush_0,playn.core.TriangleBatch::flush()V,playn.core.TriangleBatch,flush,playn/core/TriangleBatch.java,300,0
 program,playn.core.TriangleBatch::program,playn.core.TriangleBatch,program,playn/core/TriangleBatch.java,99,-1
 stableAttrs,playn.core.TriangleBatch::stableAttrs,playn.core.TriangleBatch,stableAttrs,playn/core/TriangleBatch.java,107,-1
-toString_30,playn.core.TriangleBatch::toString()Ljava/lang/String;,playn.core.TriangleBatch,toString,playn/core/TriangleBatch.java,342,0
+toString_31,playn.core.TriangleBatch::toString()Ljava/lang/String;,playn.core.TriangleBatch,toString,playn/core/TriangleBatch.java,342,0
 uFlip,playn.core.TriangleBatch::uFlip,playn.core.TriangleBatch,uFlip,playn/core/TriangleBatch.java,102,-1
 uHScreenSize,playn.core.TriangleBatch::uHScreenSize,playn.core.TriangleBatch,uHScreenSize,playn/core/TriangleBatch.java,101,-1
 uTexture,playn.core.TriangleBatch::uTexture,playn.core.TriangleBatch,uTexture,playn/core/TriangleBatch.java,100,-1
@@ -1745,7 +1843,7 @@ flush_1,playn.core.UniformQuadBatch::flush()V,playn.core.UniformQuadBatch,flush,
 maxQuads,playn.core.UniformQuadBatch::maxQuads,playn.core.UniformQuadBatch,maxQuads,playn/core/UniformQuadBatch.java,110,-1
 program,playn.core.UniformQuadBatch::program,playn.core.UniformQuadBatch,program,playn/core/UniformQuadBatch.java,112,-1
 quadCounter,playn.core.UniformQuadBatch::quadCounter,playn.core.UniformQuadBatch,quadCounter,playn/core/UniformQuadBatch.java,121,-1
-toString_31,playn.core.UniformQuadBatch::toString()Ljava/lang/String;,playn.core.UniformQuadBatch,toString,playn/core/UniformQuadBatch.java,245,0
+toString_32,playn.core.UniformQuadBatch::toString()Ljava/lang/String;,playn.core.UniformQuadBatch,toString,playn/core/UniformQuadBatch.java,245,0
 uData,playn.core.UniformQuadBatch::uData,playn.core.UniformQuadBatch,uData,playn/core/UniformQuadBatch.java,116,-1
 uFlip,playn.core.UniformQuadBatch::uFlip,playn.core.UniformQuadBatch,uFlip,playn/core/UniformQuadBatch.java,115,-1
 uHScreenSize,playn.core.UniformQuadBatch::uHScreenSize,playn.core.UniformQuadBatch,uHScreenSize,playn/core/UniformQuadBatch.java,114,-1
@@ -1817,7 +1915,7 @@ HtmlGL20$1,,playn.html.HtmlGL20$1,,playn/html/HtmlGL20.java,134,-1
 $createByteBuffer,playn.html.HtmlGL20$1::$createByteBuffer(Lplayn/html/HtmlGL20$1;I)Ljava/nio/ByteBuffer;,playn.html.HtmlGL20$1,$createByteBuffer,playn/html/HtmlGL20.java,135,0
 HtmlGL20$1,playn.html.HtmlGL20$1::HtmlGL20$1() <init>,playn.html.HtmlGL20$1,HtmlGL20$1,playn/html/HtmlGL20.java,134,0
 HtmlGL20$IntMap,,playn.html.HtmlGL20$IntMap,,playn/html/HtmlGL20.java,77,-1
-$add_3,playn.html.HtmlGL20$IntMap::$add(Lplayn/html/HtmlGL20$IntMap;Lcom/google/gwt/core/client/JavaScriptObject;)I,playn.html.HtmlGL20$IntMap,$add,playn/html/HtmlGL20.java,94,0
+$add_4,playn.html.HtmlGL20$IntMap::$add(Lplayn/html/HtmlGL20$IntMap;Lcom/google/gwt/core/client/JavaScriptObject;)I,playn.html.HtmlGL20$IntMap,$add,playn/html/HtmlGL20.java,94,0
 $remove_0,playn.html.HtmlGL20$IntMap::$remove(Lplayn/html/HtmlGL20$IntMap;I)Lcom/google/gwt/core/client/JavaScriptObject;,playn.html.HtmlGL20$IntMap,$remove,playn/html/HtmlGL20.java,99,0
 HtmlGL20$VertexAttribArrayState,,playn.html.HtmlGL20$VertexAttribArrayState,,playn/html/HtmlGL20.java,66,-1
 HtmlGL20$VertexAttribArrayState,playn.html.HtmlGL20$VertexAttribArrayState::HtmlGL20$VertexAttribArrayState() <init>,playn.html.HtmlGL20$VertexAttribArrayState,HtmlGL20$VertexAttribArrayState,playn/html/HtmlGL20.java,66,0
@@ -1849,7 +1947,7 @@ $upload,playn.html.HtmlImage::$upload(Lplayn/html/HtmlImage;Lplayn/core/Graphics
 HtmlImage,playn.html.HtmlImage::HtmlImage(Lplayn/core/Graphics;Lplayn/core/Scale;Lcom/google/gwt/dom/client/CanvasElement;Ljava/lang/String;) <init>,playn.html.HtmlImage,HtmlImage,playn/html/HtmlImage.java,37,0
 canvas,playn.html.HtmlImage::canvas,playn.html.HtmlImage,canvas,playn/html/HtmlImage.java,35,-1
 img,playn.html.HtmlImage::img,playn.html.HtmlImage,img,playn/html/HtmlImage.java,34,-1
-toString_32,playn.html.HtmlImage::toString()Ljava/lang/String;,playn.html.HtmlImage,toString,playn/html/HtmlImage.java,151,0
+toString_33,playn.html.HtmlImage::toString()Ljava/lang/String;,playn.html.HtmlImage,toString,playn/html/HtmlImage.java,151,0
 HtmlInput,,playn.html.HtmlInput,,playn/html/HtmlInput.java,30,-1
 $dispatch_0,playn.html.HtmlInput::$dispatch(Lplayn/html/HtmlInput;Lplayn/core/Keyboard$Event;Lcom/google/gwt/dom/client/NativeEvent;)V,playn.html.HtmlInput,$dispatch,playn/html/HtmlInput.java,340,0
 $dispatch_1,playn.html.HtmlInput::$dispatch(Lplayn/html/HtmlInput;Lplayn/core/Mouse$Event;Lcom/google/gwt/dom/client/NativeEvent;)V,playn.html.HtmlInput,$dispatch,playn/html/HtmlInput.java,349,0
@@ -1948,7 +2046,7 @@ graphics,playn.html.HtmlPlatform::graphics,playn.html.HtmlPlatform,graphics,play
 initNow,playn.html.HtmlPlatform::initNow()D,playn.html.HtmlPlatform,initNow,playn/html/HtmlPlatform.java,258,0
 input_0,playn.html.HtmlPlatform::input,playn.html.HtmlPlatform,input,playn/html/HtmlPlatform.java,121,-1
 log_0,playn.html.HtmlPlatform::log,playn.html.HtmlPlatform,log,playn/html/HtmlPlatform.java,116,-1
-now_2,playn.html.HtmlPlatform::now()D,playn.html.HtmlPlatform,now,playn/html/HtmlPlatform.java,263,0
+now_3,playn.html.HtmlPlatform::now()D,playn.html.HtmlPlatform,now,playn/html/HtmlPlatform.java,263,0
 start_0,playn.html.HtmlPlatform::start,playn.html.HtmlPlatform,start,playn/html/HtmlPlatform.java,112,-1
 visibilityChanged,playn.html.HtmlPlatform::visibilityChanged()V,playn.html.HtmlPlatform,visibilityChanged,playn/html/HtmlPlatform.java,192,0
 HtmlPlatform$1,,playn.html.HtmlPlatform$1,,playn/html/HtmlPlatform.java,131,-1
@@ -1984,7 +2082,7 @@ size_0,playn.scene.ClippedLayer::size,playn.scene.ClippedLayer,size,playn/scene/
 width_0,playn.scene.ClippedLayer::width,playn.scene.ClippedLayer,width,playn/scene/ClippedLayer.java,34,-1
 width_3,playn.scene.ClippedLayer::width()F,playn.scene.ClippedLayer,width,playn/scene/ClippedLayer.java,41,0
 GroupLayer,,playn.scene.GroupLayer,,playn/scene/GroupLayer.java,32,-1
-$add_4,playn.scene.GroupLayer::$add(Lplayn/scene/GroupLayer;Lplayn/scene/Layer;)V,playn.scene.GroupLayer,$add,playn/scene/GroupLayer.java,71,0
+$add_5,playn.scene.GroupLayer::$add(Lplayn/scene/GroupLayer;Lplayn/scene/Layer;)V,playn.scene.GroupLayer,$add,playn/scene/GroupLayer.java,71,0
 $addCenterAt,playn.scene.GroupLayer::$addCenterAt(Lplayn/scene/GroupLayer;Lplayn/scene/Layer;FF)V,playn.scene.GroupLayer,$addCenterAt,playn/scene/GroupLayer.java,120,0
 $findChild,playn.scene.GroupLayer::$findChild(Lplayn/scene/GroupLayer;Lplayn/scene/Layer;F)I,playn.scene.GroupLayer,$findChild,playn/scene/GroupLayer.java,274,0
 $findInsertion,playn.scene.GroupLayer::$findInsertion(Lplayn/scene/GroupLayer;F)I,playn.scene.GroupLayer,$findInsertion,playn/scene/GroupLayer.java,301,0
@@ -1992,12 +2090,12 @@ $remove_1,playn.scene.GroupLayer::$remove(Lplayn/scene/GroupLayer;Lplayn/scene/L
 children,playn.scene.GroupLayer::children,playn.scene.GroupLayer,children,playn/scene/GroupLayer.java,34,-1
 disableClip,playn.scene.GroupLayer::disableClip,playn.scene.GroupLayer,disableClip,playn/scene/GroupLayer.java,36,-1
 disableClip_0,playn.scene.GroupLayer::disableClip()Z,playn.scene.GroupLayer,disableClip,playn/scene/GroupLayer.java,211,0
-iterator_10,playn.scene.GroupLayer::iterator()Ljava/util/Iterator;,playn.scene.GroupLayer,iterator,playn/scene/GroupLayer.java,173,0
+iterator_11,playn.scene.GroupLayer::iterator()Ljava/util/Iterator;,playn.scene.GroupLayer,iterator,playn/scene/GroupLayer.java,173,0
 onAdd_0,playn.scene.GroupLayer::onAdd()V,playn.scene.GroupLayer,onAdd,playn/scene/GroupLayer.java,252,0
 onRemove_0,playn.scene.GroupLayer::onRemove()V,playn.scene.GroupLayer,onRemove,playn/scene/GroupLayer.java,257,0
 paintClipped,playn.scene.GroupLayer::paintClipped(Lplayn/core/Surface;)V,playn.scene.GroupLayer,paintClipped,playn/scene/GroupLayer.java,220,0
 paintTx,playn.scene.GroupLayer::paintTx,playn.scene.GroupLayer,paintTx,playn/scene/GroupLayer.java,35,-1
-toString_33,playn.scene.GroupLayer::toString(Ljava/lang/StringBuilder;)V,playn.scene.GroupLayer,toString,playn/scene/GroupLayer.java,215,0
+toString_34,playn.scene.GroupLayer::toString(Ljava/lang/StringBuilder;)V,playn.scene.GroupLayer,toString,playn/scene/GroupLayer.java,215,0
 Layer,,playn.scene.Layer,,playn/scene/Layer.java,40,-1
 $isSet,playn.scene.Layer::$isSet(Lplayn/scene/Layer;Lplayn/scene/Layer$Flag;)Z,playn.scene.Layer,$isSet,playn/scene/Layer.java,782,0
 $name,playn.scene.Layer::$name(Lplayn/scene/Layer;)Ljava/lang/String;,playn.scene.Layer,$name,playn/scene/Layer.java,135,0
@@ -2037,7 +2135,7 @@ ODIRTY,playn.scene.Layer$Flag::ODIRTY,playn.scene.Layer$Flag,ODIRTY,playn/scene/
 VISIBLE_1,playn.scene.Layer$Flag::VISIBLE,playn.scene.Layer$Flag,VISIBLE,playn/scene/Layer.java,769,-1
 XFDIRTY,playn.scene.Layer$Flag::XFDIRTY,playn.scene.Layer$Flag,XFDIRTY,playn/scene/Layer.java,771,-1
 bitmask,playn.scene.Layer$Flag::bitmask,playn.scene.Layer$Flag,bitmask,playn/scene/Layer.java,774,-1
-values_11,playn.scene.Layer$Flag::values()[Lplayn/scene/Layer$Flag;,playn.scene.Layer$Flag,values,playn/scene/Layer.java,768,0
+values_12,playn.scene.Layer$Flag::values()[Lplayn/scene/Layer$Flag;,playn.scene.Layer$Flag,values,playn/scene/Layer.java,768,0
 Layer$Origin,,playn.scene.Layer$Origin,,playn/scene/Layer.java,46,-1
 $clinit_Layer$Origin,playn.scene.Layer$Origin::$clinit()V,playn.scene.Layer$Origin,$clinit,playn/scene/Layer.java,46,0
 BC,playn.scene.Layer$Origin::BC,playn.scene.Layer$Origin,BC,playn/scene/Layer.java,90,-1
@@ -2051,7 +2149,7 @@ RC,playn.scene.Layer$Origin::RC,playn.scene.Layer$Origin,RC,playn/scene/Layer.ja
 TC,playn.scene.Layer$Origin::TC,playn.scene.Layer$Origin,TC,playn/scene/Layer.java,84,-1
 UL,playn.scene.Layer$Origin::UL,playn.scene.Layer$Origin,UL,playn/scene/Layer.java,60,-1
 UR,playn.scene.Layer$Origin::UR,playn.scene.Layer$Origin,UR,playn/scene/Layer.java,66,-1
-values_12,playn.scene.Layer$Origin::values()[Lplayn/scene/Layer$Origin;,playn.scene.Layer$Origin,values,playn/scene/Layer.java,46,0
+values_13,playn.scene.Layer$Origin::values()[Lplayn/scene/Layer$Origin;,playn.scene.Layer$Origin,values,playn/scene/Layer.java,46,0
 Layer$Origin$1,,playn.scene.Layer$Origin$1,,playn/scene/Layer.java,48,-1
 Layer$Origin$1,playn.scene.Layer$Origin$1::Layer$Origin$1(Ljava/lang/String;I) <init>,playn.scene.Layer$Origin$1,Layer$Origin$1,playn/scene/Layer.java,48,0
 Layer$Origin$10,,playn.scene.Layer$Origin$10,,playn/scene/Layer.java,102,-1
@@ -2078,7 +2176,7 @@ ADDED,playn.scene.Layer$State::ADDED,playn.scene.Layer$State,ADDED,playn/scene/L
 DISPOSED,playn.scene.Layer$State::DISPOSED,playn.scene.Layer$State,DISPOSED,playn/scene/Layer.java,43,-1
 Layer$State,playn.scene.Layer$State::Layer$State(Ljava/lang/String;I) <init>,playn.scene.Layer$State,Layer$State,playn/scene/Layer.java,43,0
 REMOVED,playn.scene.Layer$State::REMOVED,playn.scene.Layer$State,REMOVED,playn/scene/Layer.java,43,-1
-values_13,playn.scene.Layer$State::values()[Lplayn/scene/Layer$State;,playn.scene.Layer$State,values,playn/scene/Layer.java,43,0
+values_14,playn.scene.Layer$State::values()[Lplayn/scene/Layer$State;,playn.scene.Layer$State,values,playn/scene/Layer.java,43,0
 RootLayer,,playn.scene.RootLayer,,playn/scene/RootLayer.java,21,-1
 RootLayer,playn.scene.RootLayer::RootLayer() <init>,playn.scene.RootLayer,RootLayer,playn/scene/RootLayer.java,24,0
 SceneGame,,playn.scene.SceneGame,,playn/scene/SceneGame.java,22,-1
@@ -2098,18 +2196,18 @@ this$01,playn.scene.SceneGame$1::this$01,playn.scene.SceneGame$1,this$01,playn/s
 AbstractDimension,,pythagoras.f.AbstractDimension,,pythagoras/f/AbstractDimension.java,13,-1
 equals_18,pythagoras.f.AbstractDimension::equals(Ljava/lang/Object;)Z,pythagoras.f.AbstractDimension,equals,pythagoras/f/AbstractDimension.java,26,0
 hashCode_21,pythagoras.f.AbstractDimension::hashCode()I,pythagoras.f.AbstractDimension,hashCode,pythagoras/f/AbstractDimension.java,21,0
-toString_34,pythagoras.f.AbstractDimension::toString()Ljava/lang/String;,pythagoras.f.AbstractDimension,toString,pythagoras/f/AbstractDimension.java,38,0
+toString_35,pythagoras.f.AbstractDimension::toString()Ljava/lang/String;,pythagoras.f.AbstractDimension,toString,pythagoras/f/AbstractDimension.java,38,0
 AbstractPoint,,pythagoras.f.AbstractPoint,,pythagoras/f/AbstractPoint.java,13,-1
 equals_19,pythagoras.f.AbstractPoint::equals(Ljava/lang/Object;)Z,pythagoras.f.AbstractPoint,equals,pythagoras/f/AbstractPoint.java,98,0
 hashCode_22,pythagoras.f.AbstractPoint::hashCode()I,pythagoras.f.AbstractPoint,hashCode,pythagoras/f/AbstractPoint.java,110,0
-toString_35,pythagoras.f.AbstractPoint::toString()Ljava/lang/String;,pythagoras.f.AbstractPoint,toString,pythagoras/f/AbstractPoint.java,115,0
+toString_36,pythagoras.f.AbstractPoint::toString()Ljava/lang/String;,pythagoras.f.AbstractPoint,toString,pythagoras/f/AbstractPoint.java,115,0
 AbstractTransform,,pythagoras.f.AbstractTransform,,pythagoras/f/AbstractTransform.java,10,-1
 AbstractVector,,pythagoras.f.AbstractVector,,pythagoras/f/AbstractVector.java,13,-1
 equals_20,pythagoras.f.AbstractVector::equals(Ljava/lang/Object;)Z,pythagoras.f.AbstractVector,equals,pythagoras/f/AbstractVector.java,204,0
 hashCode_23,pythagoras.f.AbstractVector::hashCode()I,pythagoras.f.AbstractVector,hashCode,pythagoras/f/AbstractVector.java,216,0
-toString_36,pythagoras.f.AbstractVector::toString()Ljava/lang/String;,pythagoras.f.AbstractVector,toString,pythagoras/f/AbstractVector.java,221,0
+toString_37,pythagoras.f.AbstractVector::toString()Ljava/lang/String;,pythagoras.f.AbstractVector,toString,pythagoras/f/AbstractVector.java,221,0
 AffineTransform,,pythagoras.f.AffineTransform,,pythagoras/f/AffineTransform.java,17,-1
-$copy,pythagoras.f.AffineTransform::$copy(Lpythagoras/f/AffineTransform;)Lpythagoras/f/AffineTransform;,pythagoras.f.AffineTransform,$copy,pythagoras/f/AffineTransform.java,372,0
+$copy_0,pythagoras.f.AffineTransform::$copy(Lpythagoras/f/AffineTransform;)Lpythagoras/f/AffineTransform;,pythagoras.f.AffineTransform,$copy,pythagoras/f/AffineTransform.java,372,0
 $scale_1,pythagoras.f.AffineTransform::$scale(Lpythagoras/f/AffineTransform;FF)Lpythagoras/f/AffineTransform;,pythagoras.f.AffineTransform,$scale,pythagoras/f/AffineTransform.java,200,0
 $set,pythagoras.f.AffineTransform::$set(Lpythagoras/f/AffineTransform;Lpythagoras/f/AffineTransform;)Lpythagoras/f/AffineTransform;,pythagoras.f.AffineTransform,$set,pythagoras/f/AffineTransform.java,55,0
 $setRotation,pythagoras.f.AffineTransform::$setRotation(Lpythagoras/f/AffineTransform;F)Lpythagoras/f/AffineTransform;,pythagoras.f.AffineTransform,$setRotation,pythagoras/f/AffineTransform.java,154,0
@@ -2123,7 +2221,7 @@ m00,pythagoras.f.AffineTransform::m00,pythagoras.f.AffineTransform,m00,pythagora
 m01,pythagoras.f.AffineTransform::m01,pythagoras.f.AffineTransform,m01,pythagoras/f/AffineTransform.java,23,-1
 m10,pythagoras.f.AffineTransform::m10,pythagoras.f.AffineTransform,m10,pythagoras/f/AffineTransform.java,23,-1
 m11,pythagoras.f.AffineTransform::m11,pythagoras.f.AffineTransform,m11,pythagoras/f/AffineTransform.java,23,-1
-toString_37,pythagoras.f.AffineTransform::toString()Ljava/lang/String;,pythagoras.f.AffineTransform,toString,pythagoras/f/AffineTransform.java,382,0
+toString_38,pythagoras.f.AffineTransform::toString()Ljava/lang/String;,pythagoras.f.AffineTransform,toString,pythagoras/f/AffineTransform.java,382,0
 tx,pythagoras.f.AffineTransform::tx,pythagoras.f.AffineTransform,tx,pythagoras/f/AffineTransform.java,26,-1
 ty,pythagoras.f.AffineTransform::ty,pythagoras.f.AffineTransform,ty,pythagoras/f/AffineTransform.java,26,-1
 Dimension,,pythagoras.f.Dimension,,pythagoras/f/Dimension.java,12,-1
@@ -2134,7 +2232,7 @@ width_0,pythagoras.f.Dimension::width,pythagoras.f.Dimension,width,pythagoras/f/
 $clinit_Dimensions,pythagoras.f.Dimensions::$clinit()V,pythagoras.f.Dimensions,$clinit,pythagoras/f/Dimensions.java,10,0
 TO_STRING_DECIMAL_PLACES,pythagoras.f.MathUtil::TO_STRING_DECIMAL_PLACES,pythagoras.f.MathUtil,TO_STRING_DECIMAL_PLACES,pythagoras/f/MathUtil.java,226,-1
 iceil,pythagoras.f.MathUtil::iceil(F)I,pythagoras.f.MathUtil,iceil,pythagoras/f/MathUtil.java,44,0
-toString_38,pythagoras.f.MathUtil::toString(FI)Ljava/lang/String;,pythagoras.f.MathUtil,toString,pythagoras/f/MathUtil.java,198,0
+toString_39,pythagoras.f.MathUtil::toString(FI)Ljava/lang/String;,pythagoras.f.MathUtil,toString,pythagoras/f/MathUtil.java,198,0
 Point,,pythagoras.f.Point,,pythagoras/f/Point.java,12,-1
 $set_0,pythagoras.f.Point::$set(Lpythagoras/f/Point;FF)Lpythagoras/f/Point;,pythagoras.f.Point,$set,pythagoras/f/Point.java,50,0
 Point_0,pythagoras.f.Point::Point() <init>,pythagoras.f.Point,Point,pythagoras/f/Point.java,25,0
@@ -2157,7 +2255,7 @@ vectorToString,pythagoras.f.Vectors::vectorToString(FF)Ljava/lang/String;,pythag
 AbstractRectangle,,pythagoras.i.AbstractRectangle,,pythagoras/i/AbstractRectangle.java,11,-1
 equals_21,pythagoras.i.AbstractRectangle::equals(Ljava/lang/Object;)Z,pythagoras.i.AbstractRectangle,equals,pythagoras/i/AbstractRectangle.java,169,0
 hashCode_24,pythagoras.i.AbstractRectangle::hashCode()I,pythagoras.i.AbstractRectangle,hashCode,pythagoras/i/AbstractRectangle.java,182,0
-toString_39,pythagoras.i.AbstractRectangle::toString()Ljava/lang/String;,pythagoras.i.AbstractRectangle,toString,pythagoras/i/AbstractRectangle.java,187,0
+toString_40,pythagoras.i.AbstractRectangle::toString()Ljava/lang/String;,pythagoras.i.AbstractRectangle,toString,pythagoras/i/AbstractRectangle.java,187,0
 pointToString_0,pythagoras.i.Points::pointToString(II)Ljava/lang/String;,pythagoras.i.Points,pointToString,pythagoras/i/Points.java,41,0
 Rectangle,,pythagoras.i.Rectangle,,pythagoras/i/Rectangle.java,12,-1
 $setLocation,pythagoras.i.Rectangle::$setLocation(Lpythagoras/i/Rectangle;II)V,pythagoras.i.Rectangle,$setLocation,pythagoras/i/Rectangle.java,73,0
@@ -2179,7 +2277,7 @@ $updateAndNotify,react.AbstractValue::$updateAndNotify(Lreact/AbstractValue;Ljav
 CHANGE,react.AbstractValue::CHANGE,react.AbstractValue,CHANGE,react/AbstractValue.java,206,-1
 equals_22,react.AbstractValue::equals(Ljava/lang/Object;)Z,react.AbstractValue,equals,react/AbstractValue.java,135,0
 hashCode_25,react.AbstractValue::hashCode()I,react.AbstractValue,hashCode,react/AbstractValue.java,130,0
-toString_40,react.AbstractValue::toString()Ljava/lang/String;,react.AbstractValue,toString,react/AbstractValue.java,143,0
+toString_41,react.AbstractValue::toString()Ljava/lang/String;,react.AbstractValue,toString,react/AbstractValue.java,143,0
 AbstractValue$1,,react.AbstractValue$1,,react/AbstractValue.java,206,-1
 AbstractValue$1,react.AbstractValue$1::AbstractValue$1() <init>,react.AbstractValue$1,AbstractValue$1,react/AbstractValue.java,206,0
 notify_0,react.AbstractValue$1::notify(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V,react.AbstractValue$1,notify,react/AbstractValue.java,207,0
@@ -2195,7 +2293,7 @@ _ref,react.Cons::_ref,react.Cons,_ref,react/Cons.java,126,-1
 insert,react.Cons::insert(Lreact/Cons;Lreact/Cons;)Lreact/Cons;,react.Cons,insert,react/Cons.java,99,0
 next_0,react.Cons::next,react.Cons,next,react/Cons.java,18,-1
 remove,react.Cons::remove(Lreact/Cons;Lreact/Cons;)Lreact/Cons;,react.Cons,remove,react/Cons.java,111,0
-toString_41,react.Cons::toString()Ljava/lang/String;,react.Cons,toString,react/Cons.java,59,0
+toString_42,react.Cons::toString()Ljava/lang/String;,react.Cons,toString,react/Cons.java,59,0
 Cons$ListenerRef,,react.Cons$ListenerRef,,react/Cons.java,69,-1
 Cons$StrongRef,,react.Cons$StrongRef,,react/Cons.java,75,-1
 $defang,react.Cons$StrongRef::$defang(Lreact/Cons$StrongRef;Lreact/Reactor$RListener;)V,react.Cons$StrongRef,$defang,react/Cons.java,79,0
@@ -2248,7 +2346,7 @@ onEmit_4,react.Slots$1::onEmit()V,react.Slots$1,onEmit,react/Slots.java,15,0
 Try,,react.Try,,react/Try.java,14,-1
 Try$Success,,react.Try$Success,,react/Try.java,17,-1
 Try$Success,react.Try$Success::Try$Success(Ljava/lang/Object;) <init>,react.Try$Success,Try$Success,react/Try.java,19,0
-toString_42,react.Try$Success::toString()Ljava/lang/String;,react.Try$Success,toString,react/Try.java,44,0
+toString_43,react.Try$Success::toString()Ljava/lang/String;,react.Try$Success,toString,react/Try.java,44,0
 value_0,react.Try$Success::value,react.Try$Success,value,react/Try.java,18,-1
 UnitSlot,,react.UnitSlot,,react/UnitSlot.java,14,-1
 onEmit_3,react.UnitSlot::onEmit(Ljava/lang/Object;)V,react.UnitSlot,onEmit,react/UnitSlot.java,44,0
